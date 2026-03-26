@@ -35,6 +35,3 @@ local.properties
 .Spotlight-V100
 .Trashes
 
-# Cursor IDE (keep .cursor/skills/)
-.cursor/*
-!.cursor/skills/
