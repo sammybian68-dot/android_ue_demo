@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_bg">
+
+    <!-- Minimize button: app(48, 58, 80×80) -->
+    <ImageView
+        android:id="@+id/btn_minimize"
+        android:layout_width="@dimen/call_center_minimize_size"
+        android:layout_height="@dimen/call_center_minimize_size"
+        android:layout_marginStart="@dimen/call_center_minimize_start"
+        android:layout_marginTop="@dimen/call_center_minimize_top"
+        android:contentDescription="@string/service_call_minimize_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_btn_lessen_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- =============== Entry mode =============== -->
+
+    <!-- Title "I-call": centered, top=293, 36px -->
+    <TextView
+        android:id="@+id/tv_entry_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_center_title_top"
+        android:text="@string/call_center_title"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/call_center_title_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Phone number: centered, top=369, 40px, blue -->
+    <TextView
+        android:id="@+id/tv_entry_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_center_phone_top"
+        android:text="@string/call_center_phone"
+        android:textColor="@color/day_primary_blue"
+        android:textSize="@dimen/call_center_phone_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Description line 1 -->
+    <TextView
+        android:id="@+id/tv_desc_line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/call_center_desc_line1_start"
+        android:layout_marginTop="@dimen/call_center_desc_line1_top"
+        android:text="@string/call_center_desc_line1"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/call_center_desc_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Description line 2 -->
+    <TextView
+        android:id="@+id/tv_desc_line2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/call_center_desc_line2_start"
+        android:layout_marginTop="@dimen/call_center_desc_line2_top"
+        android:text="@string/call_center_desc_line2"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/call_center_desc_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Call button: app(560, 704, 160×96) -->
+    <ImageView
+        android:id="@+id/btn_call"
+        android:layout_width="@dimen/call_center_btn_width"
+        android:layout_height="@dimen/call_center_btn_height"
+        android:layout_marginStart="@dimen/call_center_call_btn_start"
+        android:layout_marginTop="@dimen/call_center_btn_top"
+        android:contentDescription="@string/call_center_call_btn_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/keyboard_btn_number_answer_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group for entry mode views -->
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tv_entry_title,tv_entry_phone,tv_desc_line1,tv_desc_line2,btn_call" />
+
+    <!-- =============== Calling mode =============== -->
+
+    <!-- Calling title "呼叫中心": centered, top=293, 36px -->
+    <TextView
+        android:id="@+id/tv_calling_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_center_title_top"
+        android:text="@string/call_center_calling_title"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/call_center_title_text_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Status "正在拨号...": centered, top=369, 30px -->
+    <TextView
+        android:id="@+id/tv_calling_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_center_status_top"
+        android:text="@string/service_call_dialing"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/call_center_status_text_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Mute button: app(440, 704, 160×96) -->
+    <ImageView
+        android:id="@+id/btn_mute"
+        android:layout_width="@dimen/call_center_btn_width"
+        android:layout_height="@dimen/call_center_btn_height"
+        android:layout_marginStart="@dimen/call_center_mute_btn_start"
+        android:layout_marginTop="@dimen/call_center_btn_top"
+        android:contentDescription="@string/call_center_mute_btn_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/keyboard_btn_number_mute_n"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Hangup button: app(680, 704, 160×96) -->
+    <ImageView
+        android:id="@+id/btn_hangup"
+        android:layout_width="@dimen/call_center_btn_width"
+        android:layout_height="@dimen/call_center_btn_height"
+        android:layout_marginStart="@dimen/call_center_hangup_btn_start"
+        android:layout_marginTop="@dimen/call_center_btn_top"
+        android:contentDescription="@string/service_call_hangup_btn_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/keyboard_btn_number_hang_up_n"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Mute label "解除静音" -->
+    <TextView
+        android:id="@+id/tv_mute_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_center_label_top"
+        android:text="@string/call_center_unmute"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/call_center_label_text_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/btn_mute"
+        app:layout_constraintStart_toStartOf="@id/btn_mute"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Hangup label "挂断" -->
+    <TextView
+        android:id="@+id/tv_hangup_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/call_center_label_top"
+        android:text="@string/service_call_hangup"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/call_center_label_text_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/btn_hangup"
+        app:layout_constraintStart_toStartOf="@id/btn_hangup"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Group for calling mode views -->
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_calling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="tv_calling_title,tv_calling_status,btn_mute,btn_hangup,tv_mute_label,tv_hangup_label" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for phone_pop_up_ecall_1.png (E-Call mini window background, 760×184) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF3D2020" />
+    <corners android:radius="24px" />
+</shape>

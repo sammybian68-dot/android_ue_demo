@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/call_log_item_height"
+    android:background="@drawable/bt_list_bg_n">
+
+    <!-- Call type icon: 64×64, margin(24, 28) from item origin -->
+    <ImageView
+        android:id="@+id/iv_call_type"
+        android:layout_width="@dimen/call_log_icon_size"
+        android:layout_height="@dimen/call_log_icon_size"
+        android:layout_marginStart="@dimen/call_log_icon_margin_start"
+        android:layout_marginTop="@dimen/call_log_icon_margin_top"
+        android:contentDescription="@string/call_type_generic_desc"
+        android:src="@drawable/icon_list_phone_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Phone number / contact name: 30px, vertically centered with icon -->
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/call_log_number_margin_start"
+        android:layout_marginEnd="@dimen/call_log_date_margin_end"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/call_log_normal_text"
+        android:textSize="@dimen/call_log_number_text_size"
+        app:layout_constraintBottom_toBottomOf="@id/iv_call_type"
+        app:layout_constraintEnd_toStartOf="@id/tv_date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/iv_call_type" />
+
+    <!-- Date text: 24px, right-aligned, vertically centered with number -->
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/call_log_date_margin_end"
+        android:textColor="@color/call_log_date_text"
+        android:textSize="@dimen/call_log_date_text_size"
+        app:layout_constraintBottom_toBottomOf="@id/tv_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/tv_number" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

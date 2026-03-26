@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for phone_pop_up_2.png (double-row mini window bg, 760×264) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF30353B" />
+    <corners android:radius="12px" />
+    <size
+        android:width="760px"
+        android:height="264px" />
+</shape>

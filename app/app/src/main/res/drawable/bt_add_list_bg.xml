@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for bt_add_list_bg.png (568×120 bluetooth add device card background) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#26FBFFFE" />
+    <corners android:radius="16px" />
+    <size
+        android:width="568px"
+        android:height="120px" />
+</shape>

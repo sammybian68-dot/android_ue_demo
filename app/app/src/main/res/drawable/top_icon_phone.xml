@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for top_icon_phone.png (phone icon in status bar, 48×48) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FF01BD92" />
+    <size
+        android:width="48px"
+        android:height="48px" />
+</shape>

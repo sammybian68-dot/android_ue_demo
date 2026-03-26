@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/incoming_mini_width"
+    android:layout_height="@dimen/incoming_mini_height"
+    android:background="@drawable/phone_pop_up_1"
+    android:contentDescription="@string/incoming_call_mini_bg_desc">
+
+    <!-- Phone number / caller name -->
+    <TextView
+        android:id="@+id/tv_mini_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/incoming_mini_text_start"
+        android:layout_marginTop="@dimen/incoming_mini_phone_top"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/incoming_mini_phone_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Status label "来电" -->
+    <TextView
+        android:id="@+id/tv_mini_call_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/incoming_mini_text_start"
+        android:layout_marginTop="@dimen/incoming_mini_status_top"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/incoming_mini_status_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Mini answer button -->
+    <ImageView
+        android:id="@+id/btn_mini_answer"
+        android:layout_width="@dimen/incoming_mini_btn_size"
+        android:layout_height="@dimen/incoming_mini_btn_size"
+        android:layout_marginStart="@dimen/incoming_mini_btn_answer_start"
+        android:layout_marginTop="@dimen/incoming_mini_btn_top"
+        android:contentDescription="@string/incoming_call_answer_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_btn_answer_calls_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Mini hangup button -->
+    <ImageView
+        android:id="@+id/btn_mini_hangup"
+        android:layout_width="@dimen/incoming_mini_btn_size"
+        android:layout_height="@dimen/incoming_mini_btn_size"
+        android:layout_marginStart="@dimen/incoming_mini_btn_hangup_start"
+        android:layout_marginTop="@dimen/incoming_mini_btn_top"
+        android:contentDescription="@string/incoming_call_hangup_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_btn_hang_up_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

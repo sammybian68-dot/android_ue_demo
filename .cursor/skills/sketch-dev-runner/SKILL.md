@@ -125,6 +125,7 @@ for mid in module_ids:
 2. 确认所有 Activity 已注册到 AndroidManifest.xml
 3. 确认 colors.xml 包含所有设计令牌
 4. 汇总完成情况报告给用户
+5. 运行所有单元测试，ALL PASS
 
 ---
 

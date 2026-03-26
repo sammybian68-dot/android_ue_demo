@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for bt_btn_answer_n.png (mini answer button, 80×80) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FF01BD92" />
+    <size
+        android:width="80px"
+        android:height="80px" />
+</shape>

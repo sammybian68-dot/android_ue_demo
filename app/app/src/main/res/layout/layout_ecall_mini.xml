@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/ecall_mini_width"
+    android:layout_height="@dimen/ecall_mini_height"
+    android:background="@drawable/phone_pop_up_ecall_1"
+    android:contentDescription="@string/ecall_mini_bg_desc">
+
+    <!-- E-Call icon placeholder -->
+    <ImageView
+        android:id="@+id/iv_mini_icon"
+        android:layout_width="@dimen/ecall_mini_icon_width"
+        android:layout_height="@dimen/ecall_mini_icon_height"
+        android:layout_marginStart="@dimen/ecall_mini_icon_start"
+        android:layout_marginTop="@dimen/ecall_mini_icon_top"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ecall_icon_placeholder"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title "服务中心" -->
+    <TextView
+        android:id="@+id/tv_mini_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ecall_mini_title_start"
+        android:layout_marginTop="@dimen/ecall_mini_title_top"
+        android:text="@string/ecall_service_title"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/ecall_mini_title_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Status / timer -->
+    <TextView
+        android:id="@+id/tv_mini_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/ecall_mini_status_start"
+        android:layout_marginTop="@dimen/ecall_mini_status_top"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/ecall_mini_status_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Hangup button (hidden during dialing mini, visible during in-call mini) -->
+    <ImageView
+        android:id="@+id/btn_mini_hangup"
+        android:layout_width="@dimen/ecall_mini_btn_size"
+        android:layout_height="@dimen/ecall_mini_btn_size"
+        android:layout_marginStart="@dimen/ecall_mini_hangup_start"
+        android:layout_marginTop="@dimen/ecall_mini_hangup_top"
+        android:contentDescription="@string/service_call_hangup_btn_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_btn_hang_up_n"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

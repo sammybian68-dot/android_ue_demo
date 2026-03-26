@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/android_bg">
+
+    <!-- Group: controls visibility of all full-screen elements -->
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_full_screen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="btn_minimize,tv_phone_number,tv_location,tv_status,btn_switch_phone,btn_mute_full,btn_hang_up_full,btn_keyboard,tv_label_switch,tv_label_mute,tv_label_hang_up,tv_label_keyboard" />
+
+    <!-- ==================== Full screen: top area ==================== -->
+
+    <!-- Minimize button: app(48, 56), 80×80 -->
+    <ImageView
+        android:id="@+id/btn_minimize"
+        android:layout_width="@dimen/outgoing_full_minimize_size"
+        android:layout_height="@dimen/outgoing_full_minimize_size"
+        android:src="@drawable/bt_btn_lessen_n"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/outgoing_call_minimize_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/outgoing_full_minimize_margin_start"
+        android:layout_marginTop="@dimen/outgoing_full_minimize_margin_top" />
+
+    <!-- Phone number: centered horizontally, marginTop 293 -->
+    <TextView
+        android:id="@+id/tv_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/outgoing_full_number_text_size"
+        android:textColor="@color/dark_primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/outgoing_full_number_margin_top" />
+
+    <!-- Location: centered horizontally, marginTop 369 -->
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/outgoing_full_location_text_size"
+        android:textColor="@color/dark_secondary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/outgoing_full_location_margin_top" />
+
+    <!-- Status "正在拨号": centered horizontally, marginTop 424 -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outgoing_call_dialing"
+        android:textSize="@dimen/outgoing_full_status_text_size"
+        android:textColor="@color/dark_secondary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/outgoing_full_status_margin_top" />
+
+    <!-- ==================== Full screen: bottom action buttons ==================== -->
+
+    <!-- Switch to phone: app(200, 704), 160×96 -->
+    <ImageView
+        android:id="@+id/btn_switch_phone"
+        android:layout_width="@dimen/outgoing_full_btn_width"
+        android:layout_height="@dimen/outgoing_full_btn_height"
+        android:src="@drawable/keyboard_btn_number_phone_n"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/outgoing_call_switch_btn_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/outgoing_full_btn_phone_margin_start"
+        android:layout_marginTop="@dimen/outgoing_full_btn_margin_top" />
+
+    <!-- Mute (disabled): app(440, 704), 160×96 -->
+    <ImageView
+        android:id="@+id/btn_mute_full"
+        android:layout_width="@dimen/outgoing_full_btn_width"
+        android:layout_height="@dimen/outgoing_full_btn_height"
+        android:src="@drawable/keyboard_btn_number_volume_d_1"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/outgoing_call_mute_btn_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/outgoing_full_btn_mute_margin_start"
+        android:layout_marginTop="@dimen/outgoing_full_btn_margin_top" />
+
+    <!-- Hang up: app(680, 704), 160×96 -->
+    <ImageView
+        android:id="@+id/btn_hang_up_full"
+        android:layout_width="@dimen/outgoing_full_btn_width"
+        android:layout_height="@dimen/outgoing_full_btn_height"
+        android:src="@drawable/keyboard_btn_number_hang_up_n"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/outgoing_call_hang_up_btn_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/outgoing_full_btn_hangup_margin_start"
+        android:layout_marginTop="@dimen/outgoing_full_btn_margin_top" />
+
+    <!-- Keyboard: app(920, 704), 160×96 -->
+    <ImageView
+        android:id="@+id/btn_keyboard"
+        android:layout_width="@dimen/outgoing_full_btn_width"
+        android:layout_height="@dimen/outgoing_full_btn_height"
+        android:src="@drawable/keyboard_btn_number_keyboard_n"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/outgoing_call_keyboard_btn_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/outgoing_full_btn_keyboard_margin_start"
+        android:layout_marginTop="@dimen/outgoing_full_btn_margin_top" />
+
+    <!-- ==================== Full screen: button labels ==================== -->
+
+    <!-- "切换至手机" centered below switch button -->
+    <TextView
+        android:id="@+id/tv_label_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outgoing_call_switch_phone"
+        android:textSize="@dimen/outgoing_full_label_text_size"
+        android:textColor="@color/dark_secondary_text"
+        app:layout_constraintStart_toStartOf="@id/btn_switch_phone"
+        app:layout_constraintEnd_toEndOf="@id/btn_switch_phone"
+        app:layout_constraintTop_toBottomOf="@id/btn_switch_phone"
+        android:layout_marginTop="@dimen/outgoing_full_label_margin_top" />
+
+    <!-- "静音" centered below mute button, dimmed (opacity 0.35) -->
+    <TextView
+        android:id="@+id/tv_label_mute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outgoing_call_mute"
+        android:textSize="@dimen/outgoing_full_label_text_size"
+        android:textColor="@color/dark_secondary_text"
+        android:alpha="0.35"
+        app:layout_constraintStart_toStartOf="@id/btn_mute_full"
+        app:layout_constraintEnd_toEndOf="@id/btn_mute_full"
+        app:layout_constraintTop_toBottomOf="@id/btn_mute_full"
+        android:layout_marginTop="@dimen/outgoing_full_label_margin_top" />
+
+    <!-- "挂断" centered below hang up button -->
+    <TextView
+        android:id="@+id/tv_label_hang_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outgoing_call_hang_up"
+        android:textSize="@dimen/outgoing_full_label_text_size"
+        android:textColor="@color/dark_secondary_text"
+        app:layout_constraintStart_toStartOf="@id/btn_hang_up_full"
+        app:layout_constraintEnd_toEndOf="@id/btn_hang_up_full"
+        app:layout_constraintTop_toBottomOf="@id/btn_hang_up_full"
+        android:layout_marginTop="@dimen/outgoing_full_label_margin_top" />
+
+    <!-- "数字键盘" centered below keyboard button -->
+    <TextView
+        android:id="@+id/tv_label_keyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/outgoing_call_keyboard"
+        android:textSize="@dimen/outgoing_full_label_text_size"
+        android:textColor="@color/dark_secondary_text"
+        app:layout_constraintStart_toStartOf="@id/btn_keyboard"
+        app:layout_constraintEnd_toEndOf="@id/btn_keyboard"
+        app:layout_constraintTop_toBottomOf="@id/btn_keyboard"
+        android:layout_marginTop="@dimen/outgoing_full_label_margin_top" />
+
+    <!-- ==================== Mini window (hidden by default) ==================== -->
+    <include
+        android:id="@+id/layout_mini"
+        layout="@layout/layout_outgoing_call_mini"
+        android:layout_width="@dimen/outgoing_mini_width"
+        android:layout_height="@dimen/outgoing_mini_height"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/outgoing_mini_margin_start"
+        android:layout_marginTop="@dimen/outgoing_mini_margin_top" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for bt_line_3.png (third-party call divider, 1248×2) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#26FBFFFE" />
+    <size
+        android:width="1248px"
+        android:height="2px" />
+</shape>

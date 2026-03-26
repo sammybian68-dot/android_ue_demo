@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- DTMF key background: rounded rect matching design spec -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/in_call_dtmf_key_bg" />
+    <corners android:radius="@dimen/in_call_dtmf_key_radius" />
+</shape>

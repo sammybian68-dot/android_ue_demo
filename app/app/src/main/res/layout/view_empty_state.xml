@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_empty_icon"
+        android:layout_width="@dimen/empty_icon_width"
+        android:layout_height="@dimen/empty_icon_height"
+        android:contentDescription="@string/empty_icon_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/icon_call_records"
+        app:layout_constraintBottom_toTopOf="@id/tv_empty_title"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_empty_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/empty_icon_to_title_gap"
+        android:text="@string/empty_no_call_records"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/empty_title_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_empty_icon"
+        app:layout_constraintBottom_toTopOf="@id/tv_empty_hint1" />
+
+    <TextView
+        android:id="@+id/tv_empty_hint1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/empty_hint_line_gap"
+        android:text="@string/empty_hint_line1"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/empty_hint_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_empty_title"
+        app:layout_constraintBottom_toTopOf="@id/tv_empty_hint2" />
+
+    <TextView
+        android:id="@+id/tv_empty_hint2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/empty_hint_line_gap"
+        android:text="@string/empty_hint_line2"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/empty_hint_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_empty_hint1"
+        app:layout_constraintBottom_toTopOf="@id/tv_empty_learn_more" />
+
+    <TextView
+        android:id="@+id/tv_empty_learn_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/empty_hint_line_gap"
+        android:text="@string/empty_learn_more"
+        android:textColor="@color/day_primary_blue"
+        android:textSize="@dimen/empty_link_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_empty_hint2"
+        app:layout_constraintBottom_toTopOf="@id/iv_empty_underline" />
+
+    <ImageView
+        android:id="@+id/iv_empty_underline"
+        android:layout_width="@dimen/empty_underline_width"
+        android:layout_height="@dimen/empty_underline_height"
+        android:layout_marginTop="@dimen/empty_link_to_underline_gap"
+        android:contentDescription="@null"
+        android:src="@drawable/more_line"
+        app:layout_constraintEnd_toEndOf="@id/tv_empty_learn_more"
+        app:layout_constraintStart_toStartOf="@id/tv_empty_learn_more"
+        app:layout_constraintTop_toBottomOf="@id/tv_empty_learn_more"
+        app:layout_constraintBottom_toTopOf="@id/btn_empty_sync" />
+
+    <ImageView
+        android:id="@+id/btn_empty_sync"
+        android:layout_width="@dimen/empty_sync_btn_width"
+        android:layout_height="@dimen/empty_sync_btn_height"
+        android:layout_marginTop="@dimen/empty_underline_to_btn_gap"
+        android:contentDescription="@string/empty_sync_button"
+        android:scaleType="fitXY"
+        android:src="@drawable/bt_btn_cancel_n"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/iv_empty_underline"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_empty_sync_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empty_sync_button"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/empty_sync_btn_text_size"
+        app:layout_constraintBottom_toBottomOf="@id/btn_empty_sync"
+        app:layout_constraintEnd_toEndOf="@id/btn_empty_sync"
+        app:layout_constraintStart_toStartOf="@id/btn_empty_sync"
+        app:layout_constraintTop_toTopOf="@id/btn_empty_sync" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

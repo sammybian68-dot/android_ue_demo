@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ==================== Left side: Call history list ==================== -->
+
+    <!-- Title "通话记录": frag(0,0), 30px, #FBFFFE -->
+    <TextView
+        android:id="@+id/tv_call_history_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialer_call_history_title"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/dialer_title_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Call log RecyclerView: frag(0,51), 568×fill -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_call_log"
+        android:layout_width="@dimen/dialer_list_width"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dialer_list_margin_top"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Empty state: no match icon + text -->
+    <ImageView
+        android:id="@+id/iv_no_match_icon"
+        android:layout_width="@dimen/dialer_no_match_icon_width"
+        android:layout_height="@dimen/dialer_no_match_icon_height"
+        android:contentDescription="@string/dialer_no_match"
+        android:src="@drawable/icon_call_records"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/tv_no_match"
+        app:layout_constraintEnd_toEndOf="@id/rv_call_log"
+        app:layout_constraintStart_toStartOf="@id/rv_call_log"
+        app:layout_constraintTop_toTopOf="@id/rv_call_log"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/tv_no_match"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dialer_key_gap"
+        android:text="@string/dialer_no_match"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/dialer_no_match_text_size"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@id/rv_call_log"
+        app:layout_constraintEnd_toEndOf="@id/rv_call_log"
+        app:layout_constraintStart_toStartOf="@id/rv_call_log"
+        app:layout_constraintTop_toBottomOf="@id/iv_no_match_icon" />
+
+    <!-- ==================== Right side: Dialer keyboard ==================== -->
+
+    <!-- Number display: frag(648,0), 528×48, center, 48px, #3C8BD0 -->
+    <TextView
+        android:id="@+id/tv_number_display"
+        android:layout_width="@dimen/dialer_display_width"
+        android:layout_height="@dimen/dialer_display_height"
+        android:layout_marginStart="@dimen/dialer_display_margin_start"
+        android:gravity="center"
+        android:maxLines="1"
+        android:textColor="@color/dialer_number_display"
+        android:textSize="@dimen/dialer_display_text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Row 1: 1, 2, 3 at frag_y=113 -->
+    <ImageView
+        android:id="@+id/btn_1"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_keyboard_margin_start"
+        android:layout_marginTop="@dimen/dialer_keyboard_margin_top"
+        android:contentDescription="@string/dialer_btn_1"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_1_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btn_2"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_2"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_2_n"
+        app:layout_constraintStart_toEndOf="@id/btn_1"
+        app:layout_constraintTop_toTopOf="@id/btn_1" />
+
+    <ImageView
+        android:id="@+id/btn_3"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_3"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_3_n"
+        app:layout_constraintStart_toEndOf="@id/btn_2"
+        app:layout_constraintTop_toTopOf="@id/btn_1" />
+
+    <!-- Row 2: 4, 5, 6 -->
+    <ImageView
+        android:id="@+id/btn_4"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginTop="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_4"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_4_n"
+        app:layout_constraintStart_toStartOf="@id/btn_1"
+        app:layout_constraintTop_toBottomOf="@id/btn_1" />
+
+    <ImageView
+        android:id="@+id/btn_5"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_5"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_5_n"
+        app:layout_constraintStart_toEndOf="@id/btn_4"
+        app:layout_constraintTop_toTopOf="@id/btn_4" />
+
+    <ImageView
+        android:id="@+id/btn_6"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_6"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_6_n"
+        app:layout_constraintStart_toEndOf="@id/btn_5"
+        app:layout_constraintTop_toTopOf="@id/btn_4" />
+
+    <!-- Row 3: 7, 8, 9 -->
+    <ImageView
+        android:id="@+id/btn_7"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginTop="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_7"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_7_n"
+        app:layout_constraintStart_toStartOf="@id/btn_1"
+        app:layout_constraintTop_toBottomOf="@id/btn_4" />
+
+    <ImageView
+        android:id="@+id/btn_8"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_8"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_8_n"
+        app:layout_constraintStart_toEndOf="@id/btn_7"
+        app:layout_constraintTop_toTopOf="@id/btn_7" />
+
+    <ImageView
+        android:id="@+id/btn_9"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_9"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_9_n"
+        app:layout_constraintStart_toEndOf="@id/btn_8"
+        app:layout_constraintTop_toTopOf="@id/btn_7" />
+
+    <!-- Row 4: *, 0, # -->
+    <ImageView
+        android:id="@+id/btn_star"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginTop="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_star"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_star_n"
+        app:layout_constraintStart_toStartOf="@id/btn_1"
+        app:layout_constraintTop_toBottomOf="@id/btn_7" />
+
+    <ImageView
+        android:id="@+id/btn_0"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_0"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_0_n"
+        app:layout_constraintStart_toEndOf="@id/btn_star"
+        app:layout_constraintTop_toTopOf="@id/btn_star" />
+
+    <ImageView
+        android:id="@+id/btn_hash"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_hash"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_hash_n"
+        app:layout_constraintStart_toEndOf="@id/btn_0"
+        app:layout_constraintTop_toTopOf="@id/btn_star" />
+
+    <!-- Row 5: [empty], call, delete -->
+    <ImageView
+        android:id="@+id/btn_call"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:layout_marginTop="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_call_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_answer_n"
+        app:layout_constraintStart_toEndOf="@id/btn_star"
+        app:layout_constraintTop_toBottomOf="@id/btn_star" />
+
+    <ImageView
+        android:id="@+id/btn_del"
+        android:layout_width="@dimen/dialer_key_width"
+        android:layout_height="@dimen/dialer_key_height"
+        android:layout_marginStart="@dimen/dialer_key_gap"
+        android:contentDescription="@string/dialer_btn_del_desc"
+        android:scaleType="fitXY"
+        android:src="@drawable/keyboard_btn_number_del_n"
+        app:layout_constraintStart_toEndOf="@id/btn_call"
+        app:layout_constraintTop_toTopOf="@id/btn_call" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for bt_btn_hang_up_1_n.png (hang up current call, 100×100) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FFFF3939" />
+    <size
+        android:width="100px"
+        android:height="100px" />
+</shape>

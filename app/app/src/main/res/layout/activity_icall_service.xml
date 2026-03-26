@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Full-screen background -->
+    <View
+        android:id="@+id/bg_fullscreen"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/android_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Minimize button: app(48, 58, 80×80) -->
+    <ImageView
+        android:id="@+id/btn_minimize"
+        android:layout_width="@dimen/service_full_minimize_size"
+        android:layout_height="@dimen/service_full_minimize_size"
+        android:layout_marginStart="@dimen/service_full_minimize_start"
+        android:layout_marginTop="@dimen/service_full_minimize_top"
+        android:contentDescription="@string/service_call_minimize_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/bt_btn_lessen_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Title: centered, top=293, 36px -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/service_full_title_top"
+        android:text="@string/icall_service_title"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/service_full_title_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- =============== Entry mode: phone + desc + call btn =============== -->
+
+    <!-- Phone number: centered, top=369, 40px, blue -->
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/icall_phone_top"
+        android:text="@string/icall_service_phone"
+        android:textColor="@color/dark_blue_bright"
+        android:textSize="@dimen/icall_phone_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Description text -->
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/icall_desc_top"
+        android:text="@string/icall_service_desc"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/icall_desc_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Call button -->
+    <ImageView
+        android:id="@+id/btn_call"
+        android:layout_width="@dimen/service_full_btn_width"
+        android:layout_height="@dimen/service_full_btn_height"
+        android:layout_marginStart="@dimen/icall_call_btn_start"
+        android:layout_marginTop="@dimen/service_full_btn_top"
+        android:contentDescription="@string/call_center_call_btn_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/keyboard_btn_number_answer_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_entry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="tv_phone,tv_desc,btn_call" />
+
+    <!-- =============== Dialing / In-call mode =============== -->
+
+    <!-- Status text "正在拨号..." or timer "00:01" -->
+    <TextView
+        android:id="@+id/tv_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/service_full_status_top"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/service_full_status_text_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Hangup button -->
+    <ImageView
+        android:id="@+id/btn_hangup"
+        android:layout_width="@dimen/service_full_btn_width"
+        android:layout_height="@dimen/service_full_btn_height"
+        android:layout_marginStart="@dimen/service_full_hangup_start"
+        android:layout_marginTop="@dimen/service_full_btn_top"
+        android:contentDescription="@string/service_call_hangup_btn_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/keyboard_btn_number_hang_up_n"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Hangup label -->
+    <TextView
+        android:id="@+id/tv_hangup_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/service_full_label_top"
+        android:text="@string/service_call_hangup"
+        android:textColor="@color/dark_secondary_text"
+        android:textSize="@dimen/service_full_label_text_size"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="@id/btn_hangup"
+        app:layout_constraintStart_toStartOf="@id/btn_hangup"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_calling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:constraint_referenced_ids="tv_status,btn_hangup,tv_hangup_label" />
+
+    <!-- Group for all fullscreen views -->
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group_fullscreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:constraint_referenced_ids="bg_fullscreen,btn_minimize,tv_title" />
+
+    <!-- =============== Mini window (included) =============== -->
+    <include
+        android:id="@+id/container_mini"
+        layout="@layout/layout_icall_mini"
+        android:layout_width="@dimen/icall_mini_width"
+        android:layout_height="@dimen/icall_mini_height"
+        android:layout_marginStart="@dimen/icall_mini_margin_start"
+        android:layout_marginTop="@dimen/icall_mini_margin_top"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

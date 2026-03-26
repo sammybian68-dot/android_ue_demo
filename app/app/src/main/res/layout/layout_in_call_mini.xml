@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/in_call_mini_width"
+    android:layout_height="@dimen/in_call_mini_height"
+    android:background="@drawable/phone_pop_up_1"
+    android:contentDescription="@string/in_call_mini_bg_desc">
+
+    <!-- Phone number: relative (52, 57), 30px, left-aligned -->
+    <TextView
+        android:id="@+id/tv_mini_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/in_call_mini_number_text_size"
+        android:textColor="@color/dark_primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/in_call_mini_number_start"
+        android:layout_marginTop="@dimen/in_call_mini_number_top" />
+
+    <!-- Call time: relative (52, 100), 26px -->
+    <TextView
+        android:id="@+id/tv_mini_call_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/in_call_mini_time_text_size"
+        android:textColor="@color/dark_secondary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/in_call_mini_time_start"
+        android:layout_marginTop="@dimen/in_call_mini_time_top" />
+
+    <!-- Mute button: relative (516, 52), 80×80 -->
+    <ImageView
+        android:id="@+id/btn_mini_mute"
+        android:layout_width="@dimen/in_call_mini_btn_size"
+        android:layout_height="@dimen/in_call_mini_btn_size"
+        android:src="@drawable/bt_btn_mute_n"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/in_call_mini_mute_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/in_call_mini_mute_start"
+        android:layout_marginTop="@dimen/in_call_mini_mute_top" />
+
+    <!-- Hang up button: relative (628, 52), 80×80 -->
+    <ImageView
+        android:id="@+id/btn_mini_hang_up"
+        android:layout_width="@dimen/in_call_mini_btn_size"
+        android:layout_height="@dimen/in_call_mini_btn_size"
+        android:src="@drawable/bt_btn_hang_up_n"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/in_call_mini_hang_up_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/in_call_mini_hangup_start"
+        android:layout_marginTop="@dimen/in_call_mini_hangup_top" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

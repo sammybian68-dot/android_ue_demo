@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Color palette derived from design spec (colors.json).
+        26 design tokens deduplicated to 15 unique hex+alpha values.
+        Naming convention: {theme}_{semantic_role}
+    -->
+
+    <!-- ==================== Dark theme: light base (#FBFFFE) ==================== -->
+    <!-- dark/主要按键_n, dark/重要文字, dark/按键/主要按键_n, dark/文字/重要文字, dark/文字-重要 -->
+    <color name="dark_primary_text">#FFFBFFFE</color>
+
+    <!-- dark/次要文字 (60%) -->
+    <color name="dark_secondary_text_60">#99FBFFFE</color>
+
+    <!-- dark/次要按键_n, dark/次要文字 (50%), dark/文字-次要 -->
+    <color name="dark_secondary_text">#80FBFFFE</color>
+
+    <!-- dark/不重要文字 (35%) -->
+    <color name="dark_hint_text">#59FBFFFE</color>
+
+    <!-- dark/主次要按键_d (15%) -->
+    <color name="dark_button_dim">#26FBFFFE</color>
+
+    <!-- ==================== Dark theme: dark base (#1A1A1B) ==================== -->
+    <!-- dark/文字-重要, dark/文字/文字-重要, dark/重要文字, dark/主要按键_n (#1A1A1B) -->
+    <color name="dark_important_text">#FF1A1A1B</color>
+
+    <!-- dark/次要按键_n (#1A1A1B 50%) -->
+    <color name="dark_secondary_button">#801A1A1B</color>
+
+    <!-- dark/不重要文字 (#1A1A1B 35%) -->
+    <color name="dark_unimportant_text">#591A1A1B</color>
+
+    <!-- ==================== Accent colors ==================== -->
+    <!-- dark/红色, dark/文字-红色 -->
+    <color name="dark_red">#FFFF3939</color>
+
+    <!-- dark/文字-绿色 -->
+    <color name="dark_text_green">#FF01BD92</color>
+
+    <!-- dark/主次要按键_p (#0095FF) -->
+    <color name="dark_blue_bright">#FF0095FF</color>
+
+    <!-- dark/主次要按键_p (#1688FF) -->
+    <color name="dark_blue_pressed">#FF1688FF</color>
+
+    <!-- ==================== Day theme ==================== -->
+    <!-- day/主要颜色 (#1A1A1B) -->
+    <color name="day_primary_dark">#FF1A1A1B</color>
+
+    <!-- day/主要颜色 (#FFFFFF) -->
+    <color name="day_white">#FFFFFFFF</color>
+
+    <!-- day/主要按键_p (#3C8BD0 50%) -->
+    <color name="day_button_pressed">#803C8BD0</color>
+
+    <!-- day/主次要按键_n (#3C8BD0 100%) — also used as tab active color -->
+    <color name="day_primary_blue">#FF3C8BD0</color>
+
+    <!-- ==================== Semantic aliases ==================== -->
+    <color name="tab_active">@color/day_primary_blue</color>
+    <color name="tab_inactive">@color/dark_secondary_text</color>
+
+    <!-- ==================== Dialer module ==================== -->
+    <color name="dialer_number_display">@color/day_primary_blue</color>
+    <color name="call_log_missed_text">@color/dark_red</color>
+    <color name="call_log_normal_text">@color/dark_primary_text</color>
+    <color name="call_log_date_text">@color/dark_secondary_text</color>
+    <color name="search_highlight_text">#FF0095FF</color>
+    <color name="search_name_text">@color/dark_primary_text</color>
+
+    <!-- ==================== Contacts module ==================== -->
+    <color name="popup_bg">#FF30353B</color>
+    <color name="avatar_color_1">#FF3F6FD1</color>
+    <color name="avatar_color_2">#FF01BD92</color>
+    <color name="avatar_color_3">#FFE5833A</color>
+    <color name="avatar_color_4">#FF9B59B6</color>
+    <color name="letter_index_indicator">#FF0095FF</color>
+
+    <!-- ==================== Contact Detail module ==================== -->
+    <color name="contact_detail_item_pressed">#CC525A68</color>
+
+    <!-- ==================== In-Call module ==================== -->
+    <color name="in_call_dtmf_key_bg">#3330343A</color>
+    <color name="in_call_dialog_cancel_bg">#33AABFCD</color>
+    <color name="in_call_dialog_confirm_bg">@color/day_primary_blue</color>
+    <color name="in_call_status_bar_bg">#FF263545</color>
+
+    <!-- ==================== Sync dialog ==================== -->
+    <color name="sync_brand_separator">#26FBFFFE</color>
+</resources>

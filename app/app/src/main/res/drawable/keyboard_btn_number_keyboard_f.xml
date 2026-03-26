@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for keyboard_btn_number_keyboard_f.png (keyboard pressed state, 160×96) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FF3C8BD0" />
+    <corners android:radius="48px" />
+    <size
+        android:width="160px"
+        android:height="96px" />
+</shape>

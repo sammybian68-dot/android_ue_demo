@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Placeholder for icon_list_phone_miss.png (64×64 missed call icon, red) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FFFF3939" />
+    <size
+        android:width="64px"
+        android:height="64px" />
+</shape>

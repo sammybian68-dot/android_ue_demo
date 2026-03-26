@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/sync_brand_gap"
+    android:background="@drawable/bt_list_pop_up_n_80_1">
+
+    <!-- Toggle icon (unfold / packup) -->
+    <ImageView
+        android:id="@+id/iv_toggle"
+        android:layout_width="@dimen/sync_brand_icon_size"
+        android:layout_height="@dimen/sync_brand_icon_size"
+        android:layout_marginStart="@dimen/sync_brand_icon_margin_start"
+        android:layout_marginTop="@dimen/sync_brand_icon_margin_top"
+        android:contentDescription="@string/sync_unfold_desc"
+        android:src="@drawable/pop_list_btn_unfold_n"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Brand name -->
+    <TextView
+        android:id="@+id/tv_brand_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/sync_brand_name_margin_start"
+        android:layout_marginTop="@dimen/sync_brand_name_margin_top"
+        android:layout_marginEnd="24px"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/dark_primary_text"
+        android:textSize="@dimen/sync_brand_name_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Collapsed spacer to enforce minimum height -->
+    <android.view.View
+        android:id="@+id/collapsed_spacer"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/sync_brand_collapsed_height"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Expandable detail area -->
+    <LinearLayout
+        android:id="@+id/layout_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/collapsed_spacer">
+
+        <!-- Separator line -->
+        <View
+            android:id="@+id/view_separator"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/sync_brand_separator_height"
+            android:background="@drawable/pop_up_list_line" />
+
+        <!-- Detail text -->
+        <TextView
+            android:id="@+id/tv_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/sync_brand_detail_margin_start"
+            android:layout_marginTop="@dimen/sync_brand_detail_margin_top"
+            android:layout_marginEnd="24px"
+            android:layout_marginBottom="24px"
+            android:lineSpacingExtra="13px"
+            android:textColor="@color/dark_primary_text"
+            android:textSize="@dimen/sync_brand_detail_text_size" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

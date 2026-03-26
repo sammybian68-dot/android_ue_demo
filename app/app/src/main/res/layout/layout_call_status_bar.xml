@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/in_call_status_bar_width"
+    android:layout_height="@dimen/in_call_status_bar_height"
+    android:background="@drawable/top_phone_display">
+
+    <!-- Phone icon: 48×48, left-aligned -->
+    <ImageView
+        android:id="@+id/iv_status_phone_icon"
+        android:layout_width="@dimen/in_call_status_bar_icon_size"
+        android:layout_height="@dimen/in_call_status_bar_icon_size"
+        android:src="@drawable/top_icon_phone"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/in_call_status_bar_icon_desc"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <!-- Call time: relative (65, 10), 28px -->
+    <TextView
+        android:id="@+id/tv_status_bar_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/in_call_mock_time"
+        android:textSize="@dimen/in_call_status_bar_time_text_size"
+        android:textColor="@color/dark_primary_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="@dimen/in_call_status_bar_time_start"
+        android:layout_marginTop="@dimen/in_call_status_bar_time_top" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
