@@ -6,30 +6,30 @@
 app/
 ├── app/
 │   ├── src/main/
-│   │   ├── kotlin/com/example/btphone/
-│   │   │   ├── MainActivity.kt
+│   │   ├── java/com/example/btphone/
+│   │   │   ├── MainActivity.java
 │   │   │   ├── ui/
 │   │   │   │   ├── contacts/
-│   │   │   │   │   ├── ContactsListFragment.kt
-│   │   │   │   │   ├── ContactDetailDialog.kt
-│   │   │   │   │   └── LetterIndexView.kt
+│   │   │   │   │   ├── ContactsListFragment.java
+│   │   │   │   │   ├── ContactDetailDialog.java
+│   │   │   │   │   └── LetterIndexView.java
 │   │   │   │   ├── dialer/
-│   │   │   │   │   ├── DialerFragment.kt
-│   │   │   │   │   └── FuzzySearchView.kt
+│   │   │   │   │   ├── DialerFragment.java
+│   │   │   │   │   └── FuzzySearchView.java
 │   │   │   │   ├── call/
-│   │   │   │   │   ├── IncomingCallActivity.kt
-│   │   │   │   │   ├── OutgoingCallActivity.kt
-│   │   │   │   │   ├── InCallActivity.kt
-│   │   │   │   │   └── ThirdPartyCallActivity.kt
+│   │   │   │   │   ├── IncomingCallActivity.java
+│   │   │   │   │   ├── OutgoingCallActivity.java
+│   │   │   │   │   ├── InCallActivity.java
+│   │   │   │   │   └── ThirdPartyCallActivity.java
 │   │   │   │   ├── service/
-│   │   │   │   │   ├── CallCenterActivity.kt
-│   │   │   │   │   ├── ICallServiceActivity.kt
-│   │   │   │   │   └── ECallServiceActivity.kt
+│   │   │   │   │   ├── CallCenterActivity.java
+│   │   │   │   │   ├── ICallServiceActivity.java
+│   │   │   │   │   └── ECallServiceActivity.java
 │   │   │   │   └── common/
-│   │   │   │       ├── EmptyStateView.kt
-│   │   │   │       ├── LoadingStateView.kt
-│   │   │   │       ├── BluetoothDisconnectedView.kt
-│   │   │   │       └── SyncDialog.kt
+│   │   │   │       ├── EmptyStateView.java
+│   │   │   │       ├── LoadingStateView.java
+│   │   │   │       ├── BluetoothDisconnectedView.java
+│   │   │   │       └── SyncDialog.java
 │   │   │   └── util/
 │   │   ├── res/
 │   │   │   ├── layout/
@@ -60,10 +60,10 @@ app/
 
 | 类型 | 格式 | 示例 |
 |------|------|------|
-| Activity | `XxxActivity.kt` | `IncomingCallActivity.kt` |
-| Fragment | `XxxFragment.kt` | `ContactsListFragment.kt` |
-| Dialog | `XxxDialog.kt` | `ContactDetailDialog.kt` |
-| 自定义 View | `XxxView.kt` | `LetterIndexView.kt` |
+| Activity | `XxxActivity.java` | `IncomingCallActivity.java` |
+| Fragment | `XxxFragment.java` | `ContactsListFragment.java` |
+| Dialog | `XxxDialog.java` | `ContactDetailDialog.java` |
+| 自定义 View | `XxxView.java` | `LetterIndexView.java` |
 | 布局文件 | `activity_xxx.xml` / `fragment_xxx.xml` / `item_xxx.xml` | `activity_main.xml` |
 | drawable | 保持切图原名 | `bt_list_bg_n.png` |
 

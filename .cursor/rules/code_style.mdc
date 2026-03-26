@@ -1,0 +1,98 @@
+---
+description: 代码风格与语言规范 — 本项目所有业务代码必须使用 Java 编写
+globs:
+  - "app/**/*.java"
+  - "app/**/*.xml"
+  - "**/*.gradle.kts"
+alwaysApply: true
+---
+
+# 代码风格规范
+
+## 语言要求
+
+- **必须使用 Java**，禁止使用 Kotlin 编写任何业务代码、Activity、Fragment、View、工具类等
+- 源码目录使用 `src/main/java/`，而非 `src/main/kotlin/`
+- 测试源码目录使用 `src/test/java/`
+- 文件扩展名为 `.java`，不得出现 `.kt` 文件
+- Gradle 构建脚本（`.gradle.kts`）不受此限制，保持 Kotlin DSL 即可
+
+## Java 版本
+
+- 源码兼容级别：Java 11
+- 在 `build.gradle.kts` 中配置：
+  ```kotlin
+  compileOptions {
+      sourceCompatibility = JavaVersion.VERSION_11
+      targetCompatibility = JavaVersion.VERSION_11
+  }
+  ```
+
+## 命名规范
+
+| 类型 | 规则 | 示例 |
+|------|------|------|
+| 类名 | UpperCamelCase | `ContactsListFragment` |
+| 方法名 | lowerCamelCase | `loadContacts()` |
+| 常量 | UPPER_SNAKE_CASE | `MAX_RETRY_COUNT` |
+| 成员变量 | `m` 前缀 + CamelCase | `mContactList` |
+| 静态变量 | `s` 前缀 + CamelCase | `sInstance` |
+| 布局文件 | 小写下划线 | `activity_main.xml`、`fragment_contacts_list.xml` |
+| 资源 ID | 小写下划线 | `tv_contact_name`、`btn_call` |
+
+## 文件与组件命名
+
+| 类型 | 格式 | 示例 |
+|------|------|------|
+| Activity | `XxxActivity.java` | `IncomingCallActivity.java` |
+| Fragment | `XxxFragment.java` | `ContactsListFragment.java` |
+| DialogFragment | `XxxDialog.java` | `ContactDetailDialog.java` |
+| 自定义 View | `XxxView.java` | `LetterIndexView.java` |
+| Adapter | `XxxAdapter.java` | `ContactsAdapter.java` |
+| 工具类 | `XxxUtils.java` | `PhoneNumberUtils.java` |
+| 接口 | `IXxx.java` 或描述性名词 | `ICallStateListener.java` |
+
+## 包结构
+
+```
+com.example.btphone/
+├── ui/
+│   ├── contacts/
+│   ├── dialer/
+│   ├── call/
+│   ├── service/
+│   └── common/
+├── adapter/
+├── model/
+├── util/
+└── mock/
+```
+
+## 代码格式
+
+- 缩进：4 个空格，禁用 Tab
+- 大括号：K&R 风格（左括号不换行）
+- 每行不超过 120 字符
+- 方法之间空一行
+- import 不使用通配符 `*`，逐个导入
+
+## 注释要求
+
+- 每个 public 类必须有 Javadoc 注释，说明用途
+- 每个 public 方法必须有 Javadoc，说明参数、返回值、异常
+- 复杂业务逻辑添加行内注释说明意图
+- 禁止提交无意义的注释（如 `// TODO Auto-generated`）
+
+## 注解使用
+
+- 重写方法必须添加 `@Override`
+- 可空参数/返回值使用 `@Nullable`，非空使用 `@NonNull`（`androidx.annotation`）
+- 废弃方法使用 `@Deprecated` 并在 Javadoc 中说明替代方案
+
+## Android 特定
+
+- 布局优先使用 `ConstraintLayout`
+- 字符串必须提取到 `strings.xml`，禁止硬编码
+- 颜色必须提取到 `colors.xml`
+- 尺寸必须提取到 `dimens.xml`
+- 使用 `ViewBinding` 替代 `findViewById`

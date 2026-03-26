@@ -1,0 +1,202 @@
+---
+description: 单元测试规范 — 所有代码必须配套单元测试，覆盖率要求 100%
+globs:
+  - "app/**/*.java"
+  - "app/**/test/**"
+alwaysApply: true
+---
+
+# 单元测试规范
+
+## 核心要求
+
+- **每一个业务类都必须有对应的单元测试类**，无例外
+- **测试覆盖率目标：100%**（行覆盖 + 分支覆盖）
+- 测试代码同样使用 **Java** 编写，禁止 Kotlin
+
+## 测试框架
+
+- 单元测试框架：**JUnit 4**
+- Mock 框架：**Mockito**（`org.mockito:mockito-core`）
+- Android 单元测试：**Robolectric**（本地 JVM 运行，无需模拟器）
+- 断言库：JUnit 自带 + **Truth**（`com.google.truth:truth`，可选）
+
+### build.gradle.kts 依赖配置
+
+```kotlin
+dependencies {
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.mockito:mockito-core:5.11.0")
+    testImplementation("org.mockito:mockito-inline:5.2.0")
+    testImplementation("org.robolectric:robolectric:4.11.1")
+    testImplementation("com.google.truth:truth:1.4.2")
+}
+```
+
+## 目录结构
+
+测试文件与源文件包路径一一对应：
+
+```
+app/src/
+├── main/java/com/example/btphone/
+│   ├── ui/contacts/ContactsListFragment.java
+│   ├── ui/contacts/ContactsAdapter.java
+│   ├── model/Contact.java
+│   └── util/PhoneNumberUtils.java
+└── test/java/com/example/btphone/
+    ├── ui/contacts/ContactsListFragmentTest.java
+    ├── ui/contacts/ContactsAdapterTest.java
+    ├── model/ContactTest.java
+    └── util/PhoneNumberUtilsTest.java
+```
+
+## 命名规范
+
+| 元素 | 规则 | 示例 |
+|------|------|------|
+| 测试类 | `被测类名 + Test` | `ContactsAdapterTest.java` |
+| 测试方法 | `方法名_场景_期望结果` | `loadContacts_emptyList_showsEmptyState()` |
+
+## 测试方法命名模板
+
+```java
+@Test
+public void 被测方法_输入场景_期望行为() {
+    // Given - 准备测试数据和前置条件
+    // When  - 执行被测行为
+    // Then  - 验证结果
+}
+```
+
+## 编写规则
+
+### 1. 每个 public 方法至少一个测试
+
+- 正常路径（happy path）必须覆盖
+- 边界条件必须覆盖（null、空集合、最大值、最小值）
+- 异常路径必须覆盖（非法输入、网络异常、超时等）
+
+### 2. Given-When-Then 结构
+
+每个测试方法严格遵循三段式，用注释分隔：
+
+```java
+@Test
+public void formatPhoneNumber_validInput_returnsFormatted() {
+    // Given
+    String raw = "13800138000";
+
+    // When
+    String result = PhoneNumberUtils.format(raw);
+
+    // Then
+    assertEquals("138-0013-8000", result);
+}
+```
+
+### 3. Mock 外部依赖
+
+- 被测类的外部依赖全部使用 Mockito mock
+- 禁止在单元测试中依赖真实的 Android Framework、网络、数据库
+- 使用 `@Mock` 注解 + `MockitoAnnotations.openMocks(this)` 或 `@RunWith(MockitoJUnitRunner.class)`
+
+```java
+@RunWith(MockitoJUnitRunner.class)
+public class ContactsPresenterTest {
+
+    @Mock
+    private ContactsRepository mockRepository;
+
+    private ContactsPresenter presenter;
+
+    @Before
+    public void setUp() {
+        presenter = new ContactsPresenter(mockRepository);
+    }
+
+    @Test
+    public void loadContacts_success_updatesView() {
+        // Given
+        List<Contact> fakeContacts = Arrays.asList(new Contact("张三", "138xxxx"));
+        when(mockRepository.getContacts()).thenReturn(fakeContacts);
+
+        // When
+        presenter.loadContacts();
+
+        // Then
+        verify(mockRepository).getContacts();
+    }
+}
+```
+
+### 4. 分支覆盖
+
+- `if/else`、`switch`、三元运算符的每个分支都要有对应的测试用例
+- 循环体的零次、一次、多次执行场景都要覆盖
+
+### 5. 测试隔离
+
+- 每个测试方法独立，不依赖其他测试的执行顺序或状态
+- 使用 `@Before` 初始化，`@After` 清理
+- 禁止测试之间共享可变状态
+
+## 覆盖率检查
+
+### JaCoCo 配置
+
+在 `app/build.gradle.kts` 中启用 JaCoCo：
+
+```kotlin
+plugins {
+    id("jacoco")
+}
+
+tasks.withType<Test> {
+    finalizedBy(tasks.named("jacocoTestReport"))
+}
+
+jacoco {
+    toolVersion = "0.8.11"
+}
+
+tasks.register<JacocoReport>("jacocoTestReport") {
+    dependsOn(tasks.named("testDebugUnitTest"))
+    reports {
+        xml.required.set(true)
+        html.required.set(true)
+    }
+    sourceDirectories.setFrom(files("src/main/java"))
+    classDirectories.setFrom(
+        fileTree("build/intermediates/javac/debug") {
+            exclude("**/R.class", "**/R$*.class", "**/BuildConfig.class")
+        }
+    )
+    executionData.setFrom(files("build/jacoco/testDebugUnitTest.exec"))
+}
+```
+
+### 覆盖率验证
+
+```kotlin
+tasks.register<JacocoCoverageVerification>("jacocoCoverageVerification") {
+    dependsOn("jacocoTestReport")
+    violationRules {
+        rule {
+            limit {
+                minimum = BigDecimal("1.00")
+            }
+        }
+    }
+}
+```
+
+## AI 编码工作流
+
+当生成或修改任何业务代码时，必须同时：
+
+1. **创建/更新对应的测试类** — 不允许提交无测试的代码
+2. **覆盖所有 public 方法** — 包括新增和修改的方法
+3. **覆盖所有分支** — if/else/switch/异常 每条路径都要有测试
+4. **运行测试验证** — 执行 `./gradlew testDebugUnitTest` 确保全部通过
+5. **检查覆盖率** — 执行 `./gradlew jacocoTestReport` 确认覆盖率达标
