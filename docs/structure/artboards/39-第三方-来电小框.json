@@ -1,0 +1,544 @@
+{
+  "notes": [],
+  "layers": [
+    {
+      "objectID": "301EDF0A-D695-4525-B4BA-BCB20EC5B147",
+      "type": "slice",
+      "name": "android_bg",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "css": [
+        "opacity: 0;"
+      ],
+      "exportable": [
+        {
+          "name": "android_bg",
+          "format": "png",
+          "path": "android_bg.png"
+        }
+      ]
+    },
+    {
+      "objectID": "D3F092E3-8941-4CB3-BFEC-0329B45933E0",
+      "type": "symbol",
+      "name": "蓝牙键盘",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "2ABBC00B-B82A-4042-8804-8BEFE0FDFA8F",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "684F16F5-6223-41AB-A863-13E901F7B780",
+      "type": "slice",
+      "name": "phone_pop_up_2",
+      "rect": {
+        "x": 876,
+        "y": 65,
+        "width": 760,
+        "height": 264
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "phone_pop_up_2",
+          "format": "png",
+          "path": "phone_pop_up_2.png"
+        }
+      ]
+    },
+    {
+      "objectID": "9CE1F41D-6EE8-4575-AC2E-0122A1439D06",
+      "type": "slice",
+      "name": "phone_pop_up_line",
+      "rect": {
+        "x": 896,
+        "y": 163,
+        "width": 720,
+        "height": 2
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "phone_pop_up_line",
+          "format": "png",
+          "path": "phone_pop_up_line.png"
+        }
+      ]
+    },
+    {
+      "objectID": "233D70FE-64C7-4114-8CAB-13CB28DB9A2D",
+      "type": "text",
+      "name": "10086",
+      "rect": {
+        "x": 928,
+        "y": 107,
+        "width": 96,
+        "height": 36
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "10086",
+      "color": {
+        "rgb": {
+          "r": 60,
+          "g": 139,
+          "b": 208
+        },
+        "hsl": {
+          "h": 208,
+          "s": 61,
+          "l": 53
+        },
+        "alpha": 255,
+        "color-hex": "#3C8BD0 100%",
+        "argb-hex": "#FF3C8BD0",
+        "rgba-hex": "#3C8BD0FF",
+        "css-rgba": "rgba(60,139,208,1)",
+        "css-hsla": "hsla(208,61%,53%,1)",
+        "ui-color": "(r:60.00 g:139.00 b:208.00 a:1.00)"
+      },
+      "fontSize": 36,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 36px;",
+        "color: #3C8BD0;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "BE2CFBDE-FCFD-4203-A9F2-291A5C18EF89",
+      "type": "text",
+      "name": "00:10",
+      "rect": {
+        "x": 1514,
+        "y": 110,
+        "width": 70,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "00:10",
+      "color": {
+        "rgb": {
+          "r": 60,
+          "g": 139,
+          "b": 208
+        },
+        "hsl": {
+          "h": 208,
+          "s": 61,
+          "l": 53
+        },
+        "alpha": 255,
+        "color-hex": "#3C8BD0 100%",
+        "argb-hex": "#FF3C8BD0",
+        "rgba-hex": "#3C8BD0FF",
+        "css-rgba": "rgba(60,139,208,1)",
+        "css-hsla": "hsla(208,61%,53%,1)",
+        "ui-color": "(r:60.00 g:139.00 b:208.00 a:1.00)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "right",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: #3C8BD0;",
+        "letter-spacing: 0;",
+        "text-align: right;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "0DA51949-ABD2-4D68-A03B-A2000D21A7C2",
+      "type": "text",
+      "name": "138 2221 2212",
+      "rect": {
+        "x": 928,
+        "y": 198,
+        "width": 225,
+        "height": 36
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "138 2221 2212",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 36,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 36px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "C0519D7E-88C9-4E72-8BF7-03C147D2247C",
+      "type": "text",
+      "name": "来电",
+      "rect": {
+        "x": 928,
+        "y": 247,
+        "width": 60,
+        "height": 30
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "来电",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "1E5F2160-00BE-4B0E-810D-D0466C5BADFF",
+      "type": "slice",
+      "name": "bt_btn_answer_n",
+      "rect": {
+        "x": 1392,
+        "y": 197,
+        "width": 80,
+        "height": 80
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_btn_answer_n",
+          "format": "png",
+          "path": "bt_btn_answer_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "70CF5E8A-49EA-4221-B169-749C10BEAC5C",
+      "type": "shape",
+      "name": "seq_0_44",
+      "rect": {
+        "x": 1372,
+        "y": 177,
+        "width": 120,
+        "height": 120
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "75663E9B-275C-4345-8D0A-B80DB1C03178",
+      "type": "group",
+      "name": "编组",
+      "rect": {
+        "x": 1408,
+        "y": 213,
+        "width": 48,
+        "height": 48
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "css": []
+    },
+    {
+      "objectID": "27FAB528-0CFF-4BD3-BCA8-20550F8699CF",
+      "type": "group",
+      "name": "编组",
+      "rect": {
+        "x": 1406.8083901950813,
+        "y": 228.25048430796437,
+        "width": 50.3832196098374,
+        "height": 17.49903138407109
+      },
+      "shadows": [],
+      "rotation": 45,
+      "opacity": 1,
+      "css": [
+        "transform: rotate(45deg);"
+      ]
+    },
+    {
+      "objectID": "3AB0E2DA-F0E2-41F4-89D2-B1CA13B902DD",
+      "type": "shape",
+      "name": "形状",
+      "rect": {
+        "x": 1420.3736837558736,
+        "y": 213.00000000000057,
+        "width": 50.3832196098374,
+        "height": 17.49903138407109
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 100
+            },
+            "alpha": 255,
+            "color-hex": "#FFFFFF 100%",
+            "argb-hex": "#FFFFFFFF",
+            "rgba-hex": "#FFFFFFFF",
+            "css-rgba": "rgba(255,255,255,1)",
+            "css-hsla": "hsla(0,0%,100%,1)",
+            "ui-color": "(r:255.00 g:255.00 b:255.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "background: #FFFFFF;"
+      ]
+    },
+    {
+      "objectID": "79D3B406-448A-40AA-848C-942A4ACAF987",
+      "type": "shape",
+      "name": "路径",
+      "rect": {
+        "x": 1416.3779889925136,
+        "y": 220.5113304200122,
+        "width": 11.744484738370375,
+        "height": 12.980746289777784
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 100
+            },
+            "alpha": 255,
+            "color-hex": "#FFFFFF 100%",
+            "argb-hex": "#FFFFFFFF",
+            "rgba-hex": "#FFFFFFFF",
+            "css-rgba": "rgba(255,255,255,1)",
+            "css-hsla": "hsla(0,0%,100%,1)",
+            "ui-color": "(r:255.00 g:255.00 b:255.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "background: #FFFFFF;"
+      ]
+    },
+    {
+      "objectID": "C2BA16E5-B391-466F-AA8C-685A5A91E07A",
+      "type": "group",
+      "name": "编组",
+      "rect": {
+        "x": 1436.6475329618715,
+        "y": 241.43377555343056,
+        "width": 13.001886187286118,
+        "height": 12.858850727713786
+      },
+      "shadows": [],
+      "rotation": -30.00000044529205,
+      "opacity": 1,
+      "css": [
+        "transform: rotate(-30deg);"
+      ]
+    },
+    {
+      "objectID": "E5A39105-14F1-434B-AA1B-457008FD8A9E",
+      "type": "shape",
+      "name": "路径",
+      "rect": {
+        "x": 1434.3037814879226,
+        "y": 245.54562683601398,
+        "width": 13.001886187286118,
+        "height": 12.858850727713786
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 255,
+              "g": 255,
+              "b": 255
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 100
+            },
+            "alpha": 255,
+            "color-hex": "#FFFFFF 100%",
+            "argb-hex": "#FFFFFFFF",
+            "rgba-hex": "#FFFFFFFF",
+            "css-rgba": "rgba(255,255,255,1)",
+            "css-hsla": "hsla(0,0%,100%,1)",
+            "ui-color": "(r:255.00 g:255.00 b:255.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "background: #FFFFFF;"
+      ]
+    },
+    {
+      "objectID": "163B528C-F965-4778-AE8D-3A4451659C2F",
+      "type": "slice",
+      "name": "bt_btn_hang_up_n",
+      "rect": {
+        "x": 1504,
+        "y": 197,
+        "width": 80,
+        "height": 80
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_btn_hang_up_n",
+          "format": "png",
+          "path": "bt_btn_hang_up_n.png"
+        }
+      ]
+    }
+  ],
+  "pageName": "页面 1",
+  "pageObjectID": "3A5C52EA-E801-4F8C-916E-37189DCDFFDA",
+  "name": "第三方-来电小框",
+  "slug": "页面-1-39-第三方-来电小框",
+  "objectID": "665481A4-7C1B-48AC-938A-AAC37327E877",
+  "width": 1920,
+  "height": 1080,
+  "flowStartPoint": false,
+  "imagePath": "preview/%E9%A1%B5%E9%9D%A2-1-39-%E7%AC%AC%E4%B8%89%E6%96%B9-%E6%9D%A5%E7%94%B5%E5%B0%8F%E6%A1%86.png",
+  "imageIconPath": "preview/icons/%E9%A1%B5%E9%9D%A2-1-39-%E7%AC%AC%E4%B8%89%E6%96%B9-%E6%9D%A5%E7%94%B5%E5%B0%8F%E6%A1%86.png"
+}

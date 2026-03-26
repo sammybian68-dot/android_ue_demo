@@ -1,0 +1,923 @@
+{
+  "notes": [],
+  "layers": [
+    {
+      "objectID": "20E7D6A3-FECF-494C-B29D-D52343730F89",
+      "type": "symbol",
+      "name": "bg",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "B8E500FC-815C-4648-B382-81A62B9CC5DA",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "34A11B19-3358-44DE-A175-A2A8E292A4C2",
+      "type": "slice",
+      "name": "android_bg",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "css": [
+        "opacity: 0;"
+      ],
+      "exportable": [
+        {
+          "name": "android_bg",
+          "format": "png",
+          "path": "android_bg.png"
+        }
+      ]
+    },
+    {
+      "objectID": "1230A7FF-FC3F-4DA1-9A44-3317162DF1C5",
+      "type": "text",
+      "name": "138 2221 2212",
+      "rect": {
+        "x": 1143,
+        "y": 349,
+        "width": 225,
+        "height": 36
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "138 2221 2212",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 36,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 36px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "9705E530-964D-47F9-AB39-5B582D3C34AC",
+      "type": "text",
+      "name": "00:30",
+      "rect": {
+        "x": 1221,
+        "y": 425,
+        "width": 71,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "00:30",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "0A1E8FCE-C568-470B-A1D5-C63A47811160",
+      "type": "slice",
+      "name": "keyboard_btn_number_keyboard_n",
+      "rect": {
+        "x": 1536,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_keyboard_n",
+          "format": "png",
+          "path": "keyboard_btn_number_keyboard_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "B59E673D-FA0A-4608-99BC-294BD64DF8CC",
+      "type": "slice",
+      "name": "keyboard_btn_number_hang_up_n",
+      "rect": {
+        "x": 1296,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_hang_up_n",
+          "format": "png",
+          "path": "keyboard_btn_number_hang_up_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "BBD1625C-E2DA-49DE-BE68-F9D0A8E3BB1B",
+      "type": "slice",
+      "name": "keyboard_btn_number_mute_n",
+      "rect": {
+        "x": 1056,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_mute_n",
+          "format": "png",
+          "path": "keyboard_btn_number_mute_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "4BCD0DFD-4EFF-49B9-A565-9D5B970E3B61",
+      "type": "slice",
+      "name": "keyboard_btn_number_phone_n",
+      "rect": {
+        "x": 816,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_phone_n",
+          "format": "png",
+          "path": "keyboard_btn_number_phone_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "1A4F685F-BE89-4A07-87BB-26A84908D3E0",
+      "type": "text",
+      "name": "挂断",
+      "rect": {
+        "x": 1346,
+        "y": 880,
+        "width": 60,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "挂断",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "71C023DE-839D-46F0-AC83-0F7132235C66",
+      "type": "text",
+      "name": "解除静音",
+      "rect": {
+        "x": 1076,
+        "y": 880,
+        "width": 120,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "解除静音",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "9A580D9C-CBBA-43C6-8780-E30BEE6B9BE7",
+      "type": "text",
+      "name": "切换至手机",
+      "rect": {
+        "x": 821,
+        "y": 880,
+        "width": 150,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "切换至手机",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "A7A1789A-13E5-48C2-865D-46078A873050",
+      "type": "text",
+      "name": "数字键盘",
+      "rect": {
+        "x": 1556,
+        "y": 880,
+        "width": 120,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "数字键盘",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "06476644-97D3-425A-A828-061DF6D5DEB3",
+      "type": "slice",
+      "name": "bt_btn_lessen_n",
+      "rect": {
+        "x": 664,
+        "y": 112,
+        "width": 80,
+        "height": 80
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_btn_lessen_n",
+          "format": "png",
+          "path": "bt_btn_lessen_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "C5F430D0-807A-49AA-95BB-D9486E47BC47",
+      "type": "slice",
+      "name": "home_bg_mask",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "home_bg_mask",
+          "format": "png",
+          "path": "home_bg_mask.png"
+        }
+      ]
+    },
+    {
+      "objectID": "3F498142-94DF-4600-9470-72348B3DD402",
+      "type": "group",
+      "name": "popup",
+      "rect": {
+        "x": 896,
+        "y": 377,
+        "width": 720,
+        "height": 286
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "css": []
+    },
+    {
+      "objectID": "4223A71C-06CC-4C2B-80D5-3F1E9C3CCF34",
+      "type": "shape",
+      "name": "popup_bg",
+      "rect": {
+        "x": 896,
+        "y": 377,
+        "width": 720,
+        "height": 286
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "radius": [
+        12
+      ],
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 48,
+              "g": 53,
+              "b": 59
+            },
+            "hsl": {
+              "h": 213,
+              "s": 10,
+              "l": 21
+            },
+            "alpha": 255,
+            "color-hex": "#30353B 100%",
+            "argb-hex": "#FF30353B",
+            "rgba-hex": "#30353BFF",
+            "css-rgba": "rgba(48,53,59,1)",
+            "css-hsla": "hsla(213,10%,21%,1)",
+            "ui-color": "(r:48.00 g:53.00 b:59.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "background: #30353B;",
+        "border-radius: 12px;"
+      ]
+    },
+    {
+      "objectID": "5AD233F8-98EF-4DBA-A422-F362AD78C936",
+      "type": "group",
+      "name": "取消",
+      "rect": {
+        "x": 960,
+        "y": 543,
+        "width": 280,
+        "height": 80
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "css": []
+    },
+    {
+      "objectID": "CB3410A5-ECDB-48C8-908E-80A5DF6FF109",
+      "type": "shape",
+      "name": "btn",
+      "rect": {
+        "x": 960,
+        "y": 543,
+        "width": 280,
+        "height": 80
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 0.2000000029802322,
+      "radius": [
+        6
+      ],
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 170,
+              "g": 191,
+              "b": 205
+            },
+            "hsl": {
+              "h": 203,
+              "s": 26,
+              "l": 74
+            },
+            "alpha": 255,
+            "color-hex": "#AABFCD 100%",
+            "argb-hex": "#FFAABFCD",
+            "rgba-hex": "#AABFCDFF",
+            "css-rgba": "rgba(170,191,205,1)",
+            "css-hsla": "hsla(203,26%,74%,1)",
+            "ui-color": "(r:170.00 g:191.00 b:205.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "opacity: 0.2;",
+        "background: #AABFCD;",
+        "border-radius: 6px;"
+      ]
+    },
+    {
+      "objectID": "73BD9F7D-A9C6-4F5D-B7AC-A2DA4E4DC7A9",
+      "type": "text",
+      "name": "取消",
+      "rect": {
+        "x": 1074,
+        "y": 570,
+        "width": 52,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "取消",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "0FAF93E5-F109-4E99-816B-3CDC5669ED50",
+      "type": "group",
+      "name": "确认",
+      "rect": {
+        "x": 1272,
+        "y": 543,
+        "width": 280,
+        "height": 80
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "css": []
+    },
+    {
+      "objectID": "01F03041-7A8A-46E2-B45E-31AC534B8619",
+      "type": "shape",
+      "name": "btn",
+      "rect": {
+        "x": 1272,
+        "y": 543,
+        "width": 280,
+        "height": 80
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "radius": [
+        6
+      ],
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 60,
+              "g": 139,
+              "b": 208
+            },
+            "hsl": {
+              "h": 208,
+              "s": 61,
+              "l": 53
+            },
+            "alpha": 255,
+            "color-hex": "#3C8BD0 100%",
+            "argb-hex": "#FF3C8BD0",
+            "rgba-hex": "#3C8BD0FF",
+            "css-rgba": "rgba(60,139,208,1)",
+            "css-hsla": "hsla(208,61%,53%,1)",
+            "ui-color": "(r:60.00 g:139.00 b:208.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "渐变样式/蓝牙渐变色_n",
+      "css": [
+        "background: #3C8BD0;",
+        "border-radius: 6px;"
+      ]
+    },
+    {
+      "objectID": "1D663953-F906-42B2-9B1F-F5B7AC6B25B7",
+      "type": "text",
+      "name": "切换",
+      "rect": {
+        "x": 1386,
+        "y": 570,
+        "width": 52,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "切换",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "B053CD74-BF30-43BC-9C69-5A78D8BFAABE",
+      "type": "shape",
+      "name": "区域",
+      "rect": {
+        "x": 960,
+        "y": 417,
+        "width": 592,
+        "height": 86
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 0,
+      "radius": [
+        2
+      ],
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 216,
+              "g": 216,
+              "b": 216
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 85
+            },
+            "alpha": 255,
+            "color-hex": "#D8D8D8 100%",
+            "argb-hex": "#FFD8D8D8",
+            "rgba-hex": "#D8D8D8FF",
+            "css-rgba": "rgba(216,216,216,1)",
+            "css-hsla": "hsla(0,0%,85%,1)",
+            "ui-color": "(r:216.00 g:216.00 b:216.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "opacity: 0;",
+        "background: #D8D8D8;",
+        "border-radius: 2px;"
+      ]
+    },
+    {
+      "objectID": "76A6BFA9-896E-4578-AC40-9343E6309A1A",
+      "type": "text",
+      "name": "切换至车内将关闭“隐私通话”",
+      "rect": {
+        "x": 1074,
+        "y": 427,
+        "width": 364,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "切换至车内将关闭“隐私通话”",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "66BED5C9-8A4F-42F3-A91C-D2BB0264381D",
+      "type": "text",
+      "name": "请确认是否切换？",
+      "rect": {
+        "x": 1152,
+        "y": 466,
+        "width": 208,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "请确认是否切换？",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    }
+  ],
+  "pageName": "页面 1",
+  "pageObjectID": "3A5C52EA-E801-4F8C-916E-37189DCDFFDA",
+  "name": "通话中展开备份",
+  "slug": "页面-1-30-通话中展开备份",
+  "objectID": "6FBF0CEE-7C2D-4370-A73B-C4E775288D48",
+  "width": 1920,
+  "height": 1080,
+  "flowStartPoint": false,
+  "imagePath": "preview/%E9%A1%B5%E9%9D%A2-1-30-%E9%80%9A%E8%AF%9D%E4%B8%AD%E5%B1%95%E5%BC%80%E5%A4%87%E4%BB%BD.png",
+  "imageIconPath": "preview/icons/%E9%A1%B5%E9%9D%A2-1-30-%E9%80%9A%E8%AF%9D%E4%B8%AD%E5%B1%95%E5%BC%80%E5%A4%87%E4%BB%BD.png"
+}

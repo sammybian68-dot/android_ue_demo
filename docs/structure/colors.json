@@ -1,0 +1,574 @@
+[
+  {
+    "name": "dark/主次要按键_d",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 38,
+      "color-hex": "#FBFFFE 15%",
+      "argb-hex": "#26FBFFFE",
+      "rgba-hex": "#FBFFFE26",
+      "css-rgba": "rgba(251,255,254,0.15)",
+      "css-hsla": "hsla(166,100%,99%,0.15)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.15)"
+    }
+  },
+  {
+    "name": "dark/主要按键_n",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 255,
+      "color-hex": "#FBFFFE 100%",
+      "argb-hex": "#FFFBFFFE",
+      "rgba-hex": "#FBFFFEFF",
+      "css-rgba": "rgba(251,255,254,1)",
+      "css-hsla": "hsla(166,100%,99%,1)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/红色",
+    "color": {
+      "rgb": {
+        "r": 255,
+        "g": 57,
+        "b": 57
+      },
+      "hsl": {
+        "h": 0,
+        "s": 100,
+        "l": 61
+      },
+      "alpha": 255,
+      "color-hex": "#FF3939 100%",
+      "argb-hex": "#FFFF3939",
+      "rgba-hex": "#FF3939FF",
+      "css-rgba": "rgba(255,57,57,1)",
+      "css-hsla": "hsla(0,100%,61%,1)",
+      "ui-color": "(r:255.00 g:57.00 b:57.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/重要文字",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 255,
+      "color-hex": "#FBFFFE 100%",
+      "argb-hex": "#FFFBFFFE",
+      "rgba-hex": "#FBFFFEFF",
+      "css-rgba": "rgba(251,255,254,1)",
+      "css-hsla": "hsla(166,100%,99%,1)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/次要按键_n",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 128,
+      "color-hex": "#FBFFFE 50%",
+      "argb-hex": "#80FBFFFE",
+      "rgba-hex": "#FBFFFE80",
+      "css-rgba": "rgba(251,255,254,0.5)",
+      "css-hsla": "hsla(166,100%,99%,0.5)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+    }
+  },
+  {
+    "name": "dark/不重要文字",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 89,
+      "color-hex": "#FBFFFE 35%",
+      "argb-hex": "#59FBFFFE",
+      "rgba-hex": "#FBFFFE59",
+      "css-rgba": "rgba(251,255,254,0.35)",
+      "css-hsla": "hsla(166,100%,99%,0.35)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.35)"
+    }
+  },
+  {
+    "name": "dark/主次要按键_p",
+    "color": {
+      "rgb": {
+        "r": 0,
+        "g": 149,
+        "b": 255
+      },
+      "hsl": {
+        "h": 204,
+        "s": 100,
+        "l": 50
+      },
+      "alpha": 255,
+      "color-hex": "#0095FF 100%",
+      "argb-hex": "#FF0095FF",
+      "rgba-hex": "#0095FFFF",
+      "css-rgba": "rgba(0,149,255,1)",
+      "css-hsla": "hsla(204,100%,50%,1)",
+      "ui-color": "(r:0.00 g:149.00 b:255.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/次要文字",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 128,
+      "color-hex": "#FBFFFE 50%",
+      "argb-hex": "#80FBFFFE",
+      "rgba-hex": "#FBFFFE80",
+      "css-rgba": "rgba(251,255,254,0.5)",
+      "css-hsla": "hsla(166,100%,99%,0.5)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+    }
+  },
+  {
+    "name": "day/主要按键_p",
+    "color": {
+      "rgb": {
+        "r": 60,
+        "g": 139,
+        "b": 208
+      },
+      "hsl": {
+        "h": 208,
+        "s": 61,
+        "l": 53
+      },
+      "alpha": 128,
+      "color-hex": "#3C8BD0 50%",
+      "argb-hex": "#803C8BD0",
+      "rgba-hex": "#3C8BD080",
+      "css-rgba": "rgba(60,139,208,0.5)",
+      "css-hsla": "hsla(208,61%,53%,0.5)",
+      "ui-color": "(r:60.00 g:139.00 b:208.00 a:0.50)"
+    }
+  },
+  {
+    "name": "dark/按键/主要按键_n",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 255,
+      "color-hex": "#FBFFFE 100%",
+      "argb-hex": "#FFFBFFFE",
+      "rgba-hex": "#FBFFFEFF",
+      "css-rgba": "rgba(251,255,254,1)",
+      "css-hsla": "hsla(166,100%,99%,1)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/次要文字",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 153,
+      "color-hex": "#FBFFFE 60%",
+      "argb-hex": "#99FBFFFE",
+      "rgba-hex": "#FBFFFE99",
+      "css-rgba": "rgba(251,255,254,0.6)",
+      "css-hsla": "hsla(166,100%,99%,0.6)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.60)"
+    }
+  },
+  {
+    "name": "dark/主次要按键_p",
+    "color": {
+      "rgb": {
+        "r": 22,
+        "g": 136,
+        "b": 255
+      },
+      "hsl": {
+        "h": 211,
+        "s": 100,
+        "l": 54
+      },
+      "alpha": 255,
+      "color-hex": "#1688FF 100%",
+      "argb-hex": "#FF1688FF",
+      "rgba-hex": "#1688FFFF",
+      "css-rgba": "rgba(22,136,255,1)",
+      "css-hsla": "hsla(211,100%,54%,1)",
+      "ui-color": "(r:22.00 g:136.00 b:255.00 a:1.00)"
+    }
+  },
+  {
+    "name": "day/主要颜色",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 255,
+      "color-hex": "#1A1A1B 100%",
+      "argb-hex": "#FF1A1A1B",
+      "rgba-hex": "#1A1A1BFF",
+      "css-rgba": "rgba(26,26,27,1)",
+      "css-hsla": "hsla(240,2%,10%,1)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:1.00)"
+    }
+  },
+  {
+    "name": "day/主要颜色",
+    "color": {
+      "rgb": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 100
+      },
+      "alpha": 255,
+      "color-hex": "#FFFFFF 100%",
+      "argb-hex": "#FFFFFFFF",
+      "rgba-hex": "#FFFFFFFF",
+      "css-rgba": "rgba(255,255,255,1)",
+      "css-hsla": "hsla(0,0%,100%,1)",
+      "ui-color": "(r:255.00 g:255.00 b:255.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/文字-次要",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 128,
+      "color-hex": "#FBFFFE 50%",
+      "argb-hex": "#80FBFFFE",
+      "rgba-hex": "#FBFFFE80",
+      "css-rgba": "rgba(251,255,254,0.5)",
+      "css-hsla": "hsla(166,100%,99%,0.5)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+    }
+  },
+  {
+    "name": "dark/文字-绿色",
+    "color": {
+      "rgb": {
+        "r": 1,
+        "g": 189,
+        "b": 146
+      },
+      "hsl": {
+        "h": 167,
+        "s": 99,
+        "l": 37
+      },
+      "alpha": 255,
+      "color-hex": "#01BD92 100%",
+      "argb-hex": "#FF01BD92",
+      "rgba-hex": "#01BD92FF",
+      "css-rgba": "rgba(1,189,146,1)",
+      "css-hsla": "hsla(167,99%,37%,1)",
+      "ui-color": "(r:1.00 g:189.00 b:146.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/文字-重要",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 255,
+      "color-hex": "#1A1A1B 100%",
+      "argb-hex": "#FF1A1A1B",
+      "rgba-hex": "#1A1A1BFF",
+      "css-rgba": "rgba(26,26,27,1)",
+      "css-hsla": "hsla(240,2%,10%,1)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/文字/文字-重要",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 255,
+      "color-hex": "#1A1A1B 100%",
+      "argb-hex": "#FF1A1A1B",
+      "rgba-hex": "#1A1A1BFF",
+      "css-rgba": "rgba(26,26,27,1)",
+      "css-hsla": "hsla(240,2%,10%,1)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/文字/重要文字",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 255,
+      "color-hex": "#FBFFFE 100%",
+      "argb-hex": "#FFFBFFFE",
+      "rgba-hex": "#FBFFFEFF",
+      "css-rgba": "rgba(251,255,254,1)",
+      "css-hsla": "hsla(166,100%,99%,1)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/文字-红色",
+    "color": {
+      "rgb": {
+        "r": 255,
+        "g": 57,
+        "b": 57
+      },
+      "hsl": {
+        "h": 0,
+        "s": 100,
+        "l": 61
+      },
+      "alpha": 255,
+      "color-hex": "#FF3939 100%",
+      "argb-hex": "#FFFF3939",
+      "rgba-hex": "#FF3939FF",
+      "css-rgba": "rgba(255,57,57,1)",
+      "css-hsla": "hsla(0,100%,61%,1)",
+      "ui-color": "(r:255.00 g:57.00 b:57.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/不重要文字",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 89,
+      "color-hex": "#1A1A1B 35%",
+      "argb-hex": "#591A1A1B",
+      "rgba-hex": "#1A1A1B59",
+      "css-rgba": "rgba(26,26,27,0.35)",
+      "css-hsla": "hsla(240,2%,10%,0.35)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:0.35)"
+    }
+  },
+  {
+    "name": "dark/重要文字",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 255,
+      "color-hex": "#1A1A1B 100%",
+      "argb-hex": "#FF1A1A1B",
+      "rgba-hex": "#1A1A1BFF",
+      "css-rgba": "rgba(26,26,27,1)",
+      "css-hsla": "hsla(240,2%,10%,1)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/次要按键_n",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 128,
+      "color-hex": "#1A1A1B 50%",
+      "argb-hex": "#801A1A1B",
+      "rgba-hex": "#1A1A1B80",
+      "css-rgba": "rgba(26,26,27,0.5)",
+      "css-hsla": "hsla(240,2%,10%,0.5)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:0.50)"
+    }
+  },
+  {
+    "name": "dark/文字-重要",
+    "color": {
+      "rgb": {
+        "r": 251,
+        "g": 255,
+        "b": 254
+      },
+      "hsl": {
+        "h": 166,
+        "s": 100,
+        "l": 99
+      },
+      "alpha": 255,
+      "color-hex": "#FBFFFE 100%",
+      "argb-hex": "#FFFBFFFE",
+      "rgba-hex": "#FBFFFEFF",
+      "css-rgba": "rgba(251,255,254,1)",
+      "css-hsla": "hsla(166,100%,99%,1)",
+      "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+    }
+  },
+  {
+    "name": "day/主次要按键_n",
+    "color": {
+      "rgb": {
+        "r": 60,
+        "g": 139,
+        "b": 208
+      },
+      "hsl": {
+        "h": 208,
+        "s": 61,
+        "l": 53
+      },
+      "alpha": 255,
+      "color-hex": "#3C8BD0 100%",
+      "argb-hex": "#FF3C8BD0",
+      "rgba-hex": "#3C8BD0FF",
+      "css-rgba": "rgba(60,139,208,1)",
+      "css-hsla": "hsla(208,61%,53%,1)",
+      "ui-color": "(r:60.00 g:139.00 b:208.00 a:1.00)"
+    }
+  },
+  {
+    "name": "dark/主要按键_n",
+    "color": {
+      "rgb": {
+        "r": 26,
+        "g": 26,
+        "b": 27
+      },
+      "hsl": {
+        "h": 240,
+        "s": 2,
+        "l": 10
+      },
+      "alpha": 255,
+      "color-hex": "#1A1A1B 100%",
+      "argb-hex": "#FF1A1A1B",
+      "rgba-hex": "#1A1A1BFF",
+      "css-rgba": "rgba(26,26,27,1)",
+      "css-hsla": "hsla(240,2%,10%,1)",
+      "ui-color": "(r:26.00 g:26.00 b:27.00 a:1.00)"
+    }
+  }
+]

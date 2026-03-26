@@ -1,0 +1,308 @@
+{
+  "notes": [],
+  "layers": [
+    {
+      "objectID": "8103531C-28FF-4588-A450-02B37EB22171",
+      "type": "slice",
+      "name": "android_bg",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "css": [
+        "opacity: 0;"
+      ],
+      "exportable": [
+        {
+          "name": "android_bg",
+          "format": "png",
+          "path": "android_bg.png"
+        }
+      ]
+    },
+    {
+      "objectID": "20E7D6A3-FECF-494C-B29D-D52343730F89",
+      "type": "symbol",
+      "name": "bg",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "B8E500FC-815C-4648-B382-81A62B9CC5DA",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "06476644-97D3-425A-A828-061DF6D5DEB3",
+      "type": "slice",
+      "name": "bt_btn_lessen_n",
+      "rect": {
+        "x": 664,
+        "y": 114,
+        "width": 80,
+        "height": 80
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_btn_lessen_n",
+          "format": "png",
+          "path": "bt_btn_lessen_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "A0DBDD5A-3645-43F5-A0AE-47E65B8B01C3",
+      "type": "text",
+      "name": "I-call",
+      "rect": {
+        "x": 1216,
+        "y": 349,
+        "width": 80,
+        "height": 36
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "I-call",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 36,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 36px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "68A2BE80-BB0B-4C84-B4CB-2576FAE1F41C",
+      "type": "text",
+      "name": "000-0000-000",
+      "rect": {
+        "x": 1128,
+        "y": 425,
+        "width": 256,
+        "height": 40
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "000-0000-000",
+      "color": {
+        "rgb": {
+          "r": 60,
+          "g": 139,
+          "b": 208
+        },
+        "hsl": {
+          "h": 208,
+          "s": 61,
+          "l": 53
+        },
+        "alpha": 255,
+        "color-hex": "#3C8BD0 100%",
+        "argb-hex": "#FF3C8BD0",
+        "rgba-hex": "#3C8BD0FF",
+        "css-rgba": "rgba(60,139,208,1)",
+        "css-hsla": "hsla(208,61%,53%,1)",
+        "ui-color": "(r:60.00 g:139.00 b:208.00 a:1.00)"
+      },
+      "fontSize": 40,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 40px;",
+        "color: #3C8BD0;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "BF8B7318-14BC-431E-BF29-667205003565",
+      "type": "text",
+      "name": "如前往陌生路段时，按下拨号键可连接至呼叫",
+      "rect": {
+        "x": 956,
+        "y": 505,
+        "width": 600,
+        "height": 24
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "如前往陌生路段时，按下拨号键可连接至呼叫中心的人工",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 24,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 24px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "6474DA9B-39E3-4EB7-914C-882182F1FA5D",
+      "type": "text",
+      "name": "坐席进行目的地查询与导航，所有费用需用户",
+      "rect": {
+        "x": 992,
+        "y": 542,
+        "width": 552,
+        "height": 24
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "坐席进行目的地查询与导航，所有费用需用户自理。",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 24,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 24px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "47275F06-C5C7-4917-BF46-98157417BADE",
+      "type": "slice",
+      "name": "keyboard_btn_number_answer_n",
+      "rect": {
+        "x": 1176,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_answer_n",
+          "format": "png",
+          "path": "keyboard_btn_number_answer_n.png"
+        }
+      ]
+    }
+  ],
+  "pageName": "页面 1",
+  "pageObjectID": "3A5C52EA-E801-4F8C-916E-37189DCDFFDA",
+  "name": "5-呼叫中心",
+  "slug": "页面-1-35-5-呼叫中心",
+  "objectID": "72BFD74D-101E-4E30-BC85-72B08FAC0208",
+  "width": 1920,
+  "height": 1080,
+  "flowStartPoint": false,
+  "imagePath": "preview/%E9%A1%B5%E9%9D%A2-1-35-5-%E5%91%BC%E5%8F%AB%E4%B8%AD%E5%BF%83.png",
+  "imageIconPath": "preview/icons/%E9%A1%B5%E9%9D%A2-1-35-5-%E5%91%BC%E5%8F%AB%E4%B8%AD%E5%BF%83.png"
+}

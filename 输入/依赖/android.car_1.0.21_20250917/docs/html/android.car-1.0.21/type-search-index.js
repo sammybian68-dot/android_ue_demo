@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"android.car","l":"ALN50VehiclePropertyIds"},{"p":"android.car","l":"ALN80VehiclePropertyIds"}];updateSearchResults();

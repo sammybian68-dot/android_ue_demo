@@ -1,0 +1,977 @@
+{
+  "notes": [],
+  "layers": [
+    {
+      "objectID": "207E59A4-1C07-4005-8578-5885D7B11EBF",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "7029B7F4-B64F-46DA-A82C-9FEA69DCCFA0",
+      "type": "symbol",
+      "name": "home_bg_mask",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "42629792-5F61-4D5E-9CDF-D6D35A0034BA",
+      "type": "shape",
+      "name": "蒙版",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "radius": [
+        0
+      ],
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "49F9D541-7B90-472B-9644-7BFD7A1ECD08",
+      "type": "group",
+      "name": "home_bg备份",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 0.800000011920929,
+      "css": [
+        "opacity: 0.8;"
+      ]
+    },
+    {
+      "objectID": "862645B4-21FD-47B1-BAA9-3D3D0F04C2B3",
+      "type": "shape",
+      "name": "蒙版",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "radius": [
+        0
+      ],
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "6FFCD469-EAED-4F8B-A506-8EB2CDE2BD44",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "3BBE933B-343D-41A0-9EDE-C64B969E251F",
+      "type": "group",
+      "name": "编组",
+      "rect": {
+        "x": 876,
+        "y": 78,
+        "width": 760,
+        "height": 884
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "css": []
+    },
+    {
+      "objectID": "4997D991-A8A2-418B-AB5E-1B6A8E8BAB00",
+      "type": "shape",
+      "name": "矩形",
+      "rect": {
+        "x": 876,
+        "y": 78,
+        "width": 760,
+        "height": 884
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 0,
+      "radius": [
+        0
+      ],
+      "borders": [
+        {
+          "fillType": "Color",
+          "position": "Inside",
+          "thickness": 1,
+          "color": {
+            "rgb": {
+              "r": 151,
+              "g": 151,
+              "b": 151
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 59
+            },
+            "alpha": 255,
+            "color-hex": "#979797 100%",
+            "argb-hex": "#FF979797",
+            "rgba-hex": "#979797FF",
+            "css-rgba": "rgba(151,151,151,1)",
+            "css-hsla": "hsla(0,0%,59%,1)",
+            "ui-color": "(r:151.00 g:151.00 b:151.00 a:1.00)"
+          }
+        }
+      ],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 216,
+              "g": 216,
+              "b": 216
+            },
+            "hsl": {
+              "h": 0,
+              "s": 0,
+              "l": 85
+            },
+            "alpha": 255,
+            "color-hex": "#D8D8D8 100%",
+            "argb-hex": "#FFD8D8D8",
+            "rgba-hex": "#D8D8D8FF",
+            "css-rgba": "rgba(216,216,216,1)",
+            "css-hsla": "hsla(0,0%,85%,1)",
+            "ui-color": "(r:216.00 g:216.00 b:216.00 a:1.00)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "opacity: 0;",
+        "background: #D8D8D8;",
+        "border: 1px solid #979797;"
+      ]
+    },
+    {
+      "objectID": "A6BD4D7F-4812-4CD6-B318-23C88D67A18D",
+      "type": "slice",
+      "name": "details_popup_1",
+      "rect": {
+        "x": 876,
+        "y": 78,
+        "width": 760,
+        "height": 884
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "details_popup_1",
+          "format": "png",
+          "path": "details_popup_1.png"
+        }
+      ]
+    },
+    {
+      "objectID": "0FD9B434-CAAE-4A0D-982B-BC684C5946EC",
+      "type": "shape",
+      "name": "进度条",
+      "rect": {
+        "x": 1584,
+        "y": 782,
+        "width": 8,
+        "height": 120
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "radius": [
+        4
+      ],
+      "borders": [],
+      "fills": [
+        {
+          "fillType": "Color",
+          "color": {
+            "rgb": {
+              "r": 251,
+              "g": 255,
+              "b": 254
+            },
+            "hsl": {
+              "h": 166,
+              "s": 100,
+              "l": 99
+            },
+            "alpha": 89,
+            "color-hex": "#FBFFFE 35%",
+            "argb-hex": "#59FBFFFE",
+            "rgba-hex": "#FBFFFE59",
+            "css-rgba": "rgba(251,255,254,0.35)",
+            "css-hsla": "hsla(166,100%,99%,0.35)",
+            "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.35)"
+          },
+          "gradient": {}
+        }
+      ],
+      "styleName": "",
+      "css": [
+        "background: rgba(251,255,254,0.35);",
+        "border-radius: 4px;"
+      ]
+    },
+    {
+      "objectID": "B5BB397D-6E5F-4FDA-B746-C16B874806AD",
+      "type": "shape",
+      "name": "蒙版",
+      "rect": {
+        "x": 960,
+        "y": 138,
+        "width": 592,
+        "height": 764
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "radius": [
+        0
+      ],
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "F8F4FC38-FC14-4EE5-9160-C33A9143D5E7",
+      "type": "text",
+      "name": "若按上述路径，找不到同步联系人的授权功能",
+      "rect": {
+        "x": 960,
+        "y": 842,
+        "width": 592,
+        "height": 24
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "若按上述路径，找不到同步联系人的授权功能，请取消",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 24,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 24px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "C1597C8A-8AED-4DAF-A589-D407219865BF",
+      "type": "text",
+      "name": "配对蓝牙设备，再重新连接。",
+      "rect": {
+        "x": 960,
+        "y": 878,
+        "width": 404,
+        "height": 24
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "配对蓝牙设备，再重新连接。",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 24,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 24px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "9A5309C5-D9CA-4B79-B962-EA278C80BCA3",
+      "type": "slice",
+      "name": "bt_list_pop_up_n_227",
+      "rect": {
+        "x": 960,
+        "y": 575,
+        "width": 592,
+        "height": 227
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_list_pop_up_n_227",
+          "format": "png",
+          "path": "bt_list_pop_up_n_227.png"
+        }
+      ]
+    },
+    {
+      "objectID": "52A64442-3F12-413E-A8D4-DE36FE676FB1",
+      "type": "text",
+      "name": "在手机的蓝牙设备页面，找到已连接的车辆设",
+      "rect": {
+        "x": 991,
+        "y": 697,
+        "width": 520,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "在手机的蓝牙设备页面，找到已连接的车辆设",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "4F2E5DF1-8242-423D-A355-9B38C9D4602A",
+      "type": "text",
+      "name": "备，进入“详情”页面，允许同步联系人。",
+      "rect": {
+        "x": 991,
+        "y": 736,
+        "width": 494,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "备，进入“详情”页面，允许同步联系人。",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "ADA98F81-48F0-468A-AB83-1274335F1176",
+      "type": "slice",
+      "name": "pop_list_btn_packup_n",
+      "rect": {
+        "x": 984,
+        "y": 583,
+        "width": 64,
+        "height": 64
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "pop_list_btn_packup_n",
+          "format": "png",
+          "path": "pop_list_btn_packup_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "F5CFEF45-55F8-41DD-9545-3734B318DDD3",
+      "type": "text",
+      "name": "其他",
+      "rect": {
+        "x": 1072,
+        "y": 602,
+        "width": 52,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "其他",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "9E5B6187-9F38-4775-8E92-A111ABB86168",
+      "type": "slice",
+      "name": "bt_list_pop_up_n_305",
+      "rect": {
+        "x": 960,
+        "y": 138,
+        "width": 592,
+        "height": 91
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_list_pop_up_n_305",
+          "format": "png",
+          "path": "bt_list_pop_up_n_305.png"
+        }
+      ]
+    },
+    {
+      "objectID": "0EAA741C-C114-4B88-A1E5-301327977CCD",
+      "type": "slice",
+      "name": "bt_list_pop_up_n_266",
+      "rect": {
+        "x": 960,
+        "y": 269,
+        "width": 592,
+        "height": 266
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_list_pop_up_n_266",
+          "format": "png",
+          "path": "bt_list_pop_up_n_266.png"
+        }
+      ]
+    },
+    {
+      "objectID": "10AA13A8-3053-4CF8-9959-C157B91AB9FE",
+      "type": "text",
+      "name": "如iPhone 12 pro：在蓝牙设置",
+      "rect": {
+        "x": 984,
+        "y": 391,
+        "width": 544,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "如iPhone 12 pro：在蓝牙设置页面的“已配对的",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "ACF6A4D9-1F8B-4B65-856B-70D91226F92D",
+      "type": "text",
+      "name": "设备”中，点击车辆设备右侧的“详情”图标",
+      "rect": {
+        "x": 984,
+        "y": 430,
+        "width": 546,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "设备”中，点击车辆设备右侧的“详情”图标，",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "8A2532B7-D21E-47D1-B507-447051AFFF41",
+      "type": "text",
+      "name": "开启“同步通讯录”开关。",
+      "rect": {
+        "x": 984,
+        "y": 469,
+        "width": 312,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "开启“同步通讯录”开关。",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "76154F49-1F19-4590-8EA1-8014F619A537",
+      "type": "text",
+      "name": "图标&gt;“共享联系人”，选择“仅姓名和号码",
+      "rect": {
+        "x": 984,
+        "y": 138,
+        "width": 536,
+        "height": 12
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "图标&gt;“共享联系人”，选择“仅姓名和号码”",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "D133FE40-7FA6-4B3B-ADFD-5B8C85966DF3",
+      "type": "text",
+      "name": "或“全部详情”。",
+      "rect": {
+        "x": 984,
+        "y": 163,
+        "width": 208,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "或“全部详情”。",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "BEA4053A-8AFF-4A2B-9471-0E1F63FFAE3C",
+      "type": "slice",
+      "name": "pop_up_list_line",
+      "rect": {
+        "x": 960,
+        "y": 349,
+        "width": 592,
+        "height": 2
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "pop_up_list_line",
+          "format": "png",
+          "path": "pop_up_list_line.png"
+        }
+      ]
+    },
+    {
+      "objectID": "BEA4053A-8AFF-4A2B-9471-0E1F63FFAE3C",
+      "type": "slice",
+      "name": "pop_up_list_line",
+      "rect": {
+        "x": 960,
+        "y": 655,
+        "width": 592,
+        "height": 2
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "pop_up_list_line",
+          "format": "png",
+          "path": "pop_up_list_line.png"
+        }
+      ]
+    },
+    {
+      "objectID": "ADA98F81-48F0-468A-AB83-1274335F1176",
+      "type": "slice",
+      "name": "pop_list_btn_packup_n",
+      "rect": {
+        "x": 984,
+        "y": 277,
+        "width": 64,
+        "height": 64
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "pop_list_btn_packup_n",
+          "format": "png",
+          "path": "pop_list_btn_packup_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "164172EE-13F2-4A5F-90E8-E92B1302B2F2",
+      "type": "text",
+      "name": "苹果",
+      "rect": {
+        "x": 1072,
+        "y": 296,
+        "width": 52,
+        "height": 26
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "苹果",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 26,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "left",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 26px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "font-weight: 400;"
+      ]
+    }
+  ],
+  "pageName": "页面 1",
+  "pageObjectID": "3A5C52EA-E801-4F8C-916E-37189DCDFFDA",
+  "name": "2-同步操作-苹果展开",
+  "slug": "页面-1-20-2-同步操作-苹果展开",
+  "objectID": "DE1EBD16-430F-49DD-857C-E0122818906B",
+  "width": 1920,
+  "height": 1080,
+  "flowStartPoint": false,
+  "imagePath": "preview/%E9%A1%B5%E9%9D%A2-1-20-2-%E5%90%8C%E6%AD%A5%E6%93%8D%E4%BD%9C-%E8%8B%B9%E6%9E%9C%E5%B1%95%E5%BC%80.png",
+  "imageIconPath": "preview/icons/%E9%A1%B5%E9%9D%A2-1-20-2-%E5%90%8C%E6%AD%A5%E6%93%8D%E4%BD%9C-%E8%8B%B9%E6%9E%9C%E5%B1%95%E5%BC%80.png"
+}

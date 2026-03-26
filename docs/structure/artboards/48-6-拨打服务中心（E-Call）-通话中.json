@@ -1,0 +1,227 @@
+{
+  "notes": [],
+  "layers": [
+    {
+      "objectID": "A3689FE3-B5C6-484A-B50E-7573C6CA3380",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "20E7D6A3-FECF-494C-B29D-D52343730F89",
+      "type": "symbol",
+      "name": "bg",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "B8E500FC-815C-4648-B382-81A62B9CC5DA",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "68FC11CB-7E67-42AC-AADC-D31D61C1D4B2",
+      "type": "slice",
+      "name": "android_bg",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "css": [
+        "opacity: 0;"
+      ],
+      "exportable": [
+        {
+          "name": "android_bg",
+          "format": "png",
+          "path": "android_bg.png"
+        }
+      ]
+    },
+    {
+      "objectID": "AF8B7548-C1C6-43FD-91BE-3972F86578B5",
+      "type": "shape",
+      "name": "ecall_20",
+      "rect": {
+        "x": 1146,
+        "y": 548,
+        "width": 220,
+        "height": 120
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "06476644-97D3-425A-A828-061DF6D5DEB3",
+      "type": "slice",
+      "name": "bt_btn_lessen_n",
+      "rect": {
+        "x": 664,
+        "y": 114,
+        "width": 80,
+        "height": 80
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_btn_lessen_n",
+          "format": "png",
+          "path": "bt_btn_lessen_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "E946A58A-D98F-43F6-A8CC-CB3C9D03E387",
+      "type": "text",
+      "name": "服务中心",
+      "rect": {
+        "x": 1184,
+        "y": 349,
+        "width": 144,
+        "height": 36
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "服务中心",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 36,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 36px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "735B0C3D-267D-4875-8253-1E09898E8F96",
+      "type": "text",
+      "name": "00:01",
+      "rect": {
+        "x": 1221.5,
+        "y": 425,
+        "width": 70,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "00:01",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    }
+  ],
+  "pageName": "页面 1",
+  "pageObjectID": "3A5C52EA-E801-4F8C-916E-37189DCDFFDA",
+  "name": "6-拨打服务中心（E-Call）-通话中",
+  "slug": "页面-1-48-6-拨打服务中心（e-call）-通话中",
+  "objectID": "3341B31E-9F2E-4613-AECF-85AE67A6CC4A",
+  "width": 1920,
+  "height": 1080,
+  "flowStartPoint": false,
+  "imagePath": "preview/%E9%A1%B5%E9%9D%A2-1-48-6-%E6%8B%A8%E6%89%93%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%EF%BC%88e-call%EF%BC%89-%E9%80%9A%E8%AF%9D%E4%B8%AD.png",
+  "imageIconPath": "preview/icons/%E9%A1%B5%E9%9D%A2-1-48-6-%E6%8B%A8%E6%89%93%E6%9C%8D%E5%8A%A1%E4%B8%AD%E5%BF%83%EF%BC%88e-call%EF%BC%89-%E9%80%9A%E8%AF%9D%E4%B8%AD.png"
+}

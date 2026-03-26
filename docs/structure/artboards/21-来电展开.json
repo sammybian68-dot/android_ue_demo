@@ -1,0 +1,419 @@
+{
+  "notes": [],
+  "layers": [
+    {
+      "objectID": "20E7D6A3-FECF-494C-B29D-D52343730F89",
+      "type": "symbol",
+      "name": "bg",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "B8E500FC-815C-4648-B382-81A62B9CC5DA",
+      "type": "shape",
+      "name": "位图",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "css": []
+    },
+    {
+      "objectID": "C2B2501F-4988-430B-8D45-04CAE3026251",
+      "type": "slice",
+      "name": "android_bg",
+      "rect": {
+        "x": 616,
+        "y": 56,
+        "width": 1304,
+        "height": 904
+      },
+      "css": [
+        "opacity: 0;"
+      ],
+      "exportable": [
+        {
+          "name": "android_bg",
+          "format": "png",
+          "path": "android_bg.png"
+        }
+      ]
+    },
+    {
+      "objectID": "DDB2179A-31CE-4A50-A0F4-841E311C8D5C",
+      "type": "slice",
+      "name": "android_bg备份",
+      "rect": {
+        "x": 627,
+        "y": 56,
+        "width": 1293,
+        "height": 904
+      },
+      "css": [
+        "opacity: 0;"
+      ],
+      "exportable": [
+        {
+          "name": "android_bg备份",
+          "format": "png",
+          "path": "android_bg备份.png"
+        }
+      ]
+    },
+    {
+      "objectID": "77F0BB4E-D9B4-4843-BD3B-C4E899C1B6E7",
+      "type": "text",
+      "name": "来电中",
+      "rect": {
+        "x": 1211,
+        "y": 480,
+        "width": 90,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "来电中",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "F0014306-B5AC-4BE8-9F54-1B98496D9C23",
+      "type": "text",
+      "name": "火龙果",
+      "rect": {
+        "x": 1202,
+        "y": 349,
+        "width": 108,
+        "height": 36
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "火龙果",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 255,
+        "color-hex": "#FBFFFE 100%",
+        "argb-hex": "#FFFBFFFE",
+        "rgba-hex": "#FBFFFEFF",
+        "css-rgba": "rgba(251,255,254,1)",
+        "css-hsla": "hsla(166,100%,99%,1)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:1.00)"
+      },
+      "fontSize": 36,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 36px;",
+        "color: #FBFFFE;",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "09CD290F-E684-46E7-94C7-BF2B7DEE26C7",
+      "type": "text",
+      "name": "136 3890 0900",
+      "rect": {
+        "x": 1160,
+        "y": 425,
+        "width": 190,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "136 3890 0900",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "06476644-97D3-425A-A828-061DF6D5DEB3",
+      "type": "slice",
+      "name": "bt_btn_lessen_n",
+      "rect": {
+        "x": 664,
+        "y": 112,
+        "width": 80,
+        "height": 80
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "bt_btn_lessen_n",
+          "format": "png",
+          "path": "bt_btn_lessen_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "47275F06-C5C7-4917-BF46-98157417BADE",
+      "type": "slice",
+      "name": "keyboard_btn_number_answer_n",
+      "rect": {
+        "x": 1056,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_answer_n",
+          "format": "png",
+          "path": "keyboard_btn_number_answer_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "47275F06-C5C7-4917-BF46-98157417BADE",
+      "type": "slice",
+      "name": "keyboard_btn_number_answer_n",
+      "rect": {
+        "x": 1056,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_answer_n",
+          "format": "png",
+          "path": "keyboard_btn_number_answer_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "B59E673D-FA0A-4608-99BC-294BD64DF8CC",
+      "type": "slice",
+      "name": "keyboard_btn_number_hang_up_n",
+      "rect": {
+        "x": 1296,
+        "y": 760,
+        "width": 160,
+        "height": 96
+      },
+      "css": [],
+      "exportable": [
+        {
+          "name": "keyboard_btn_number_hang_up_n",
+          "format": "png",
+          "path": "keyboard_btn_number_hang_up_n.png"
+        }
+      ]
+    },
+    {
+      "objectID": "08ACBC3C-4F5F-4233-B021-38E891C19FCF",
+      "type": "text",
+      "name": "接听",
+      "rect": {
+        "x": 1106,
+        "y": 880,
+        "width": 60,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "接听",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    },
+    {
+      "objectID": "DCA20574-05B3-4544-9F97-4D9C2A7E5370",
+      "type": "text",
+      "name": "挂断",
+      "rect": {
+        "x": 1346,
+        "y": 880,
+        "width": 60,
+        "height": 31
+      },
+      "shadows": [],
+      "rotation": 0,
+      "opacity": 1,
+      "borders": [],
+      "fills": [],
+      "styleName": "",
+      "content": "挂断",
+      "color": {
+        "rgb": {
+          "r": 251,
+          "g": 255,
+          "b": 254
+        },
+        "hsl": {
+          "h": 166,
+          "s": 100,
+          "l": 99
+        },
+        "alpha": 128,
+        "color-hex": "#FBFFFE 50%",
+        "argb-hex": "#80FBFFFE",
+        "rgba-hex": "#FBFFFE80",
+        "css-rgba": "rgba(251,255,254,0.5)",
+        "css-hsla": "hsla(166,100%,99%,0.5)",
+        "ui-color": "(r:251.00 g:255.00 b:254.00 a:0.50)"
+      },
+      "fontSize": 30,
+      "fontFace": "FZLanTingHeiPro_GB18030",
+      "textAlign": "center",
+      "letterSpacing": 0,
+      "lineHeight": null,
+      "css": [
+        "font-family: FZLTHPro--GB1-4;",
+        "font-size: 30px;",
+        "color: rgba(251,255,254,0.50);",
+        "letter-spacing: 0;",
+        "text-align: center;",
+        "font-weight: 400;"
+      ]
+    }
+  ],
+  "pageName": "页面 1",
+  "pageObjectID": "3A5C52EA-E801-4F8C-916E-37189DCDFFDA",
+  "name": "来电展开",
+  "slug": "页面-1-21-来电展开",
+  "objectID": "69B88CE3-49D6-4450-B103-ECCD25CB4FE7",
+  "width": 1920,
+  "height": 1080,
+  "flowStartPoint": false,
+  "imagePath": "preview/%E9%A1%B5%E9%9D%A2-1-21-%E6%9D%A5%E7%94%B5%E5%B1%95%E5%BC%80.png",
+  "imageIconPath": "preview/icons/%E9%A1%B5%E9%9D%A2-1-21-%E6%9D%A5%E7%94%B5%E5%B1%95%E5%BC%80.png"
+}
