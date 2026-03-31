@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Placeholder for bt_tab_line_select.png (180×3 tab indicator line) -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <solid android:color="#FF3C8BD0" />
-    <size
-        android:width="180px"
-        android:height="3px" />
-</shape>

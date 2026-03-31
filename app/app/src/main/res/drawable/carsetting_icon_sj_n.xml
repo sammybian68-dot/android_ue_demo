@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Placeholder for carsetting_icon_sj_n.png (72×72 device icon) -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="oval">
-    <solid android:color="#59FBFFFE" />
-    <size
-        android:width="72px"
-        android:height="72px" />
-</shape>

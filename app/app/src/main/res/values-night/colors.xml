@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- Night mode overrides (car dark theme is the primary design target) -->
-    <color name="tab_active">@color/day_primary_blue</color>
-    <color name="tab_inactive">@color/dark_secondary_text</color>
-</resources>

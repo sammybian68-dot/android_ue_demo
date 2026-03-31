@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Placeholder for bt_list_pop_up_n_1.png (592×120 phone item normal background) -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android"
-    android:shape="rectangle">
-    <solid android:color="@android:color/transparent" />
-    <corners android:radius="20px" />
-</shape>
